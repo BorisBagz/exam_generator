@@ -7,7 +7,7 @@ by: boris a.
 """
 
 # GLOBAL VARIABLES
-number_questions = 5        #number of questions we want to ask
+number_questions = 15        #number of questions we want to ask
 questions_made = []         #array with the index of the questions already answered
 answers = []                #array with the good and given answers
 json_questions = 'questions-2.json'     #json file containing the questions
@@ -102,9 +102,9 @@ def print_final_score(points):
 def print_answers():
     print(' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
     print('\nResults: ')
-    print('             Your Answer   Correct Answer')
+    print('\t    Your Answer   Correct Answer')
     for i in range(0,len(answers)):
-        print('Question {0} :     {1}       |       {2}'.format(i+1, answers[i][0].upper(), answers[i][1].upper()))
+        print('Question {0} :\t{1}       |       {2}'.format(i+1, answers[i][0].upper(), answers[i][1].upper()))
 
 #core of the EXAM
 #fetch the data from the json, execute the CORE while the amount of asked questions

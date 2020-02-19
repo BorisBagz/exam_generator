@@ -48,5 +48,120 @@
     "question": "Which of the following blades is NOT subscription-based and therefore does not have to be renewed on a regular basis?",
     "options": " A. Application Control\n B. Threat Emulation\n C. Anti-Virus\n D. Advanced Networking Blade",
     "answer": "d"
+  },
+  {
+    "question": "Fill in the blank: Back up and restores can be accomplished through_________.",
+    "options": " A. SmartConsole, WebUI, or CLI\n B. WebUI, CLI, or SmartUpdate\n C. CLI, SmartUpdate, or SmartBackup\n D. SmartUpdate, SmartBackup, or SmartConsole",
+    "answer": "a"
+  },
+  {
+    "question": "Phase 1 of the two-phase negotiation process conducted by IKE operates in ______ mode.",
+    "options": " A. Main\n B. Authentication\n C. Quick\n D. High Alert",
+    "answer": "a"
+  },
+  {
+    "question": "What is the BEST method to deploy Identity Awareness for roaming users?",
+    "options": " A. Use Office Mode\n B. Use identity agents\n C. Share user identities between gateways\n D. Use captive portal",
+    "answer": "b"
+  },
+  {
+    "question": "What is the purpose of the Clean-up Rule?",
+    "options": " A. To log all traffic that is not explicitly allowed or denied in the Rule Base\n B. To clean up policies found inconsistent with the compliance blade reports\n C. To remove all rules that could have a conflict with other rules in the database\n D. To eliminate duplicate log entries in the Security Gateway",
+    "answer": "a"
+  },
+  {
+    "question": "What is Identity Sharing?",
+    "options": " A. Management servers can acquire and share identities with Security Gateways\n B. Users can share identities with other users\n C. Security Gateways can acquire and share identities with other Security Gateways\n D. Administrators can share identifies with other administrators",
+    "answer": "c"
+  },
+  {
+    "question": "What is the most recommended installation method for Check Point appliances?",
+    "options": " A. SmartUpdate installation\n B. DVD media created with Check Point ISOMorphic\n C. USB media created with Check Point ISOMorphic\n D. Cloud based installation",
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is NOT a role of the SmartCenter:",
+    "options": " A. Status monitoring\n B. Policy configuration\n C. Certificate authority\n D. Address translation",
+    "answer": "c"
+  },
+  {
+    "question": "Fill in the blanks: There are ________ types of software containers ________.",
+    "options": " A. Status monitoring\n B. Policy configuration\n C. Certificate authority\n D. Address translation",
+    "answer": "a"
+  },
+  {
+    "question": "Fill in the bank: In Office mode, a Security Gateway assigns a remote client to an IP address once___________.",
+    "options": " A. the user connects and authenticates\n B. office mode is initiated\n C. the user requests a connection\n D. the user connects",
+    "answer": "a"
+  },
+  {
+    "question": "Which Identify Source(s) should be selected in Identify Awareness for when there is a requirement for a higher level of security for sensitive servers?",
+    "options": " A. AD Query\n B. Terminal Servers Endpoint Identify Agent\n C. Endpoint Identity Agent and Browser-Based Authentication\n D. RADIUS and Account Logon",
+    "answer": "c"
+  },
+  {
+    "question": "What is the most complete definition of the difference between the Install Policy button on the SmartConsole’s tab, and the Install Policy within a specific policy?",
+    "options": " A. The Global one also saves and published the session before installation.\n B. The Global one can install multiple selected policies at the same time.\n C. The local one does not install the Anti-Malware policy along with the Network policy.\n D. The second one pre-select the installation for only the current policy and for the applicable gateways.",
+    "answer": "d"
+  },
+  {
+    "question": "Which of the following is used to initially create trust between a Gateway and Security Management Server?",
+    "options": " A. Internal Certificate Authority\n B. Token\n C. One-time Password\n D. Certificate",
+    "answer": "c"
+  },
+  {
+    "question": "What are the advantages of a \"shared policy\" in R80?",
+    "options": " A. Allows the administrator to share a policy between all the users identified by the Security Gateway\n B. Allows the administrator to share a policy between all the administrators managing the Security Management Server\n C. Allows the administrator to share a policy so that it is available to use in another Policy Package\n D. Allows the administrator to install a policy on one Security Gateway and it gets installed on another managed Security Gateway",
+    "answer": "c"
+  },
+  {
+    "question": "John is the administrator of a R80 Security Management server managing r R77.30 Check Point Security Gateway. John is currently updating the network objects and amending the rules using SmartConsole. To make John’s changes available to other administrators, and to save the database before installing a policy, what must John do?",
+    "options": " A. Logout of the session\n B. File > Save\n C. Install database\n D. Publish the session",
+    "answer": "d"
+  },
+  {
+    "question": "To view statistics on detected threats, which Threat Tool would an administrator use?",
+    "options": " A. Protections\n B. IPS Protections\n C. Profiles\n D. ThreatWiki",
+    "answer": "b"
+  },
+  {
+    "question": "What are the two types of NAT supported by the Security Gateway?",
+    "options": " A. Destination and Hide\n B. Hide and Static\n C. Static and Source\n D. Source and Destination",
+    "answer": "b"
+  },
+  {
+    "question": "After the initial installation on Check Point appliance, you notice that the Management interface and default gateway are incorrect. Which commands could you use to set the IP to 192.168.80.200/24 and default gateway to 192.168.80.1.",
+    "options": " A. set interface Mgmt ipv4-address 192.168.80.200 mask-length 24set static-route default nexthop gateway address 192.168.80.1 on save config\n B. add interface Mgmt ipv4-address 192.168.80.200 255.255.255.0add static-route 0.0.0.0.0.0.0.0 gw 192.168.80.1 on save config\n C. set interface Mgmt ipv4-address 192.168.80.200 255.255.255.0add static-route 0.0.0.0.0.0.0.0 gw 192.168.80.1 on save config\n D. add interface Mgmt ipv4-address 192.168.80.200 mask-length 24add static-route default nexthop gateway address 192.168.80.1 on save config",
+    "answer": "a"
+  },
+  {
+    "question": "What Check Point tool is used to automatically update Check Point products for the Gaia OS?",
+    "options": " A. Check Point INSPECT Engine\n B. Check Point Upgrade Service Engine\n C. Check Point Update Engine\n D. Check Point Upgrade Installation Service",
+    "answer": "b"
+  },
+  {
+    "question": "You are the Check Point administrator for Alpha Corp with an R80 Check Point estate. You have received a call by one of the management users stating that they are unable to browse the Internet with their new tablet connected to the company Wireless. The Wireless system goes through the Check Point Gateway. How do you review the logs to see what the problem may be?",
+    "options": " A. Open SmartLog and connect remotely to the IP of the wireless controller\n B. Open SmartView Tracker and filter the logs for the IP address of the tablet\n C. Open SmartView Tracker and check all the IP logs for the tablet\n D. Open SmartLog and query for the IP address of the Manager’s tablet",
+    "answer": "d"
+  },
+  {
+    "question": "How is communication between different Check Point components secured in R80? As with all questions, select the best answer",
+    "options": " A. By using IPSEC\n B. By using SIC\n C. By using ICA\n D. By using 3DES",
+    "answer": "b"
+  },
+  {
+    "question": "Identify the ports to which the Client Authentication daemon listens on by default?",
+    "options": " A. 259, 900\n B. 256, 257\n C. 8080, 529\n D. 80, 256",
+    "answer": "a"
+  },
+ {
+    "question": "What is the purpose of the CPCA process?",
+    "options": " A. Monitoring the status of processes\n B. Sending and receiving logs\n C. Communication between GUI clients and the SmartCenter server\n D. Generating and modifying certificates",
+    "answer": "d"
+  },
+ {
+    "question": "True or False: The destination server for Security Gateway logs depends on a Security Management Server configuration.",
+    "options": " A. False, log servers are configured on the Log Server General Properties\n B. True, all Security Gateways will only forward logs with a SmartCenter Server configuration\n C. True, all Security Gateways forward logs automatically to the Security Management Server\n D. False, log servers are enabled on the Security Gateway General Properties",
+    "answer": "c"
   }
 ]
