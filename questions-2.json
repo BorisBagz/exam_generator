@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which option, when applied to a rule, allows traffic to VPN gateways in specific VPN communities?",
+    "options": " A. All Connections (Clear or Encrypted)\n B. Accept all encrypted traffic\n C. Specific VPN Communities}\n D. All Site-to-Site VPN Communities",
+    "answer": "c"
+  },
+  {
+    "question": "When configuring Spoof Tracking, which tracking actions can an administrator select to be done when spoofed packets are detected?",
+    "options": " A. Log, send snmp trap, email\n B. Drop packet, alert, none\n C. Log, alert, none\n D. Log, allow packets, email",
+    "answer": "c"
+  },
+  {
+    "question": "Access roles allow the firewall administrator to configure network access according to",
+    "options": " A. a combination of computer groups and network\n B. users and user groups\n C. all of above\n D. remote access clients",
+    "answer": "c"
+  },
+  {
+    "question": "What are the three deployment considerations for a secure network?",
+    "options": " A. Distributed, Bridge Mode, and Remote\n B. Bridge Mode, Remote, and Standalone\n C. Remote, Standalone, and Distributed\n D. Standalone, Distributed, and Bridge Mode",
+    "answer": "d"
+  },
+  {
+    "question": "Which of the following Windows Security Events will NOT map a username to an IP address in Identity Awareness?",
+    "options": " A. Kerberos Ticket Renewed\n B. Kerberos Ticket Requested\n C. Account Logon\n D. Kerberos Ticket Timed Out",
+    "answer": "d"
+  },
+  {
+    "question": "Fill in the blank: Permanent VPN tunnels can be set on all tunnels in the community, on all tunnels for specific gateways, or__________.",
+    "options": " A. On all satellite gateway to satellite gateway tunnels\n B. On specific tunnels for specific gateways\n C. On specific tunnels in the community\n D. On specific satellite gateway to central gateway tunnels",
+    "answer": "c"
+  },
+  {
+    "question": "In Unified SmartConsole Gateways and Servers tab you can perform the following functions EXCEPT",
+    "options": " A. Upgrade the software version\n B. Open WebUI\n C. Open SSH\n D. Open service request with Check Point Technical Support",
+    "answer": "a"
+  },
+  {
+    "question": "Which Threat Prevention Software Blade provides protection from malicious software that can infect your network computers?",
+    "options": " A. Anti-Malware\n B. IPS\n C. Anti-bot\n D. Anti-Spam",
+    "answer": "c"
+  },
+  {
+    "question": "Which icon indicates that read/write access is enabled?",
+    "options": " A. Pencil\n B. Padlock\n C. Book\n D. Eyeglasses",
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following blades is NOT subscription-based and therefore does not have to be renewed on a regular basis?",
+    "options": " A. Application Control\n B. Threat Emulation\n C. Anti-Virus\n D. Advanced Networking Blade",
+    "answer": "d"
+  }
+]
