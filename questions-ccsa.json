@@ -110,7 +110,7 @@
     "answer": "c"
   },
   {
-    "question": "What are the advantages of a 'shared policy' in R80?",
+    "question": "What are the advantages of a "shared policy" in R80?",
     "options": " A. Allows the administrator to share a policy between all the users identified by the Security Gateway\n B. Allows the administrator to share a policy between all the administrators managing the Security Management Server\n C. Allows the administrator to share a policy so that it is available to use in another Policy Package\n D. Allows the administrator to install a policy on one Security Gateway and it gets installed on another managed Security Gateway",
     "answer": "c"
   },
@@ -266,7 +266,7 @@
   },
  {
     "question": "To fully enable Dynamic Dispatcher on a Security Gateway:",
-    "options": " A. run fw ctl multik set_mode 9 in Expert mode and then reboot\n B. Using cpconfig, update the Dynamic Dispatcher value to 'full' under the CoreXL menu\n C. Edit /proc/interrupts to include multik set_mode 1 at the bottom of the file, save, and reboot\n D. run fw ctl multik set_mode 1 in Expert mode and then reboot",
+    "options": " A. run fw ctl multik set_mode 9 in Expert mode and then reboot\n B. Using cpconfig, update the Dynamic Dispatcher value to "full" under the CoreXL menu\n C. Edit /proc/interrupts to include multik set_mode 1 at the bottom of the file, save, and reboot\n D. run fw ctl multik set_mode 1 in Expert mode and then reboot",
     "answer": "a"
   },
  {
@@ -337,6 +337,91 @@
  {
     "question": "DLP and Geo Policy are examples of what type of Policy?",
     "options": " A. Standard Policies\n B. Shared Policies\n C. Inspection Policies\n D. Unified Policies",
+    "answer": "b"
+  },
+ {
+    "question": "According to Check Point Best Practice, when adding a 3rd party gateway to a Check Point security solution what object SHOULD be added?",
+    "options": " A. Interoperable Device\n B. Network Node\n C. Externally managed gateway\n D. Gateway",
+    "answer": "a"
+  },
+ {
+    "question": "When connected to the Check Point R80 Management Server using the SmartConsole the first administrator to connect has a lock on:",
+    "options": " A. Only the objects being modified in the Management Database and other administrators can connect to make changes using a special session as long as they all connect from the same LAN network.\n B. The entire Management Database and other administrators can connect to make changes only if the first administrator switches to Read-only.\n C. The entire Management Database and all sessions and other administrators can connect only as Read-only.\n D. Only the objects being modified in his session of the Management Database and other administrators can connect to make changes using different sessions.",
+    "answer": "d"
+  },
+ {
+    "question": "The CDT utility supports which of the following?",
+    "options": " A. Major version upgrades to R77.30\n B. Only Jumbo HFA’s and hotfixes\n C. Only major version upgrades to R80.10\n D. All upgrades",
+    "answer": "d"
+  },
+ {
+    "question": "Fill in the blank: The_____________feature allows administrators to share a policy with other policy packages.",
+    "options": " A. Shared policy packages\n B. Shared policies\n C. Concurrent policy packages\n D. Concurrent policies",
+    "answer": "b"
+  },
+ {
+    "question": "You have successfully backed up your Check Point configurations without the OS information. What command would you use to restore this backup?",
+    "options": " A. restore_backup\n B. import backup\n C. cp_merge\n D. migrate import",
+    "answer": "d"
+  },
+ {
+    "question": "What Identity Agent allows packet tagging and computer authentication?",
+    "options": " A. Endpoint Security Client\n B. Full Agent\n C. Light Agent\n D. System Agent",
+    "answer": "b"
+  },
+ {
+    "question": "Which command shows the installed licenses?",
+    "options": " A. cplic print\n B. print cplic\n C. fwlic print\n D. show licenses",
+    "answer": "a"
+  },
+ {
+    "question": "Choose what BEST describes a Session",
+    "options": " A. Starts when an Administrator publishes all the changes made on SmartConsole.\n B. Starts when an Administrator logs in to the Security Management Server through SmartConsole and ends when it is published.\n C. Sessions ends when policy is pushed to the Security Gateway.\n D. Sessions locks the policy package for editing.",
+    "answer": "b"
+  },
+ {
+    "question": "The organization’s security manager wishes to back up just the Gaia operating system parameters. Which command can be used to back up only Gaia operating system parameters like interface details, Static routes and Proxy ARP entries?",
+    "options": " A. show configuration\n B. backup\n C. migrate export\n D. upgrade export",
+    "answer": "a"
+  },
+ {
+    "question": "Which of the following is NOT a set of Regulatory Requirements related to Information Security?",
+    "options": " A. ISO 37001\n B. Sarbanes Oxley (SOX)\n C. HIPPA\n D. PCI",
+    "answer": "a"
+  },
+ {
+    "question": "Fill in the blank: Gaia can be configured using the________or____________",
+    "options": " A. Gaia; command line interface\n B. WebUI; Gaia Interface\n C. Command line interface; WebUI\n D. Gaia Interface; GaiaUI",
+    "answer": "c"
+  },
+ {
+    "question": "The system administrator of a company is trying to find out why acceleration is not working for the traffic. The traffic is allowed according to the rule base and checked for viruses. But it is not accelerated. What is the most likely reason that the traffic is not accelerated?",
+    "options": " A. There is a virus found. Traffic is still allowed but not accelerated\n B. The connection required a Security server\n C. Acceleration is not enabled\n D. The traffic is originating from the gateway itself",
+    "answer": "d"
+  },
+ {
+    "question": "Which of the following is the most secure means of authentication?",
+    "options": " A. Password\n B. Certificate\n C. Token\n D. Pre-shared secret",
+    "answer": "b"
+  },
+ {
+    "question": "You are about to integrate RSA SecurlD users into the Check Point infrastructure. What kind of users are to be defined via SmartDashboard?",
+    "options": " A. A group with generic user\n B. All users\n C. LDAP Account Unit Group\n D. Internal user Group",
+    "answer": "a"
+  },
+ {
+    "question": "You are about to integrate RSA SecurlD users into the Check Point infrastructure. What kind of users are to be defined via SmartDashboard?",
+    "options": " A. A group with generic user\n B. All users\n C. LDAP Account Unit Group\n D. Internal user Group",
+    "answer": "a"
+  },
+ {
+    "question": "You want to verify if there are unsaved changes in GAiA that will be lost with a reboot. What command can be used?",
+    "options": " A. show unsaved\n B. show save-state\n C. show configuration diff\n D. show config-state",
+    "answer": "d"
+  },
+ {
+    "question": "What SmartEvent component creates events?",
+    "options": " A. Consolidation Policy\n B. Correlation Unit\n C. SmartEvent Policy\n D. SmartEvent GUI",
     "answer": "b"
   }
 ]
