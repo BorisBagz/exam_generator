@@ -10,7 +10,7 @@ by: boris a.
 number_questions = 15        #number of questions we want to ask
 questions_made = []         #array with the index of the questions already answered
 answers = []                #array with the good and given answers
-json_questions = 'questions-2.json'     #json file containing the questions
+json_questions = 'questions-ccsa.json'     #json file containing the questions
 valid_answers = ['a', 'b', 'c', 'd']    #array with the valid options as answers
 valid_exams = ['CCSA R80']
 passing_score = 81
