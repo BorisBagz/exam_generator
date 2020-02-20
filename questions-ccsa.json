@@ -266,7 +266,7 @@
   },
  {
     "question": "To fully enable Dynamic Dispatcher on a Security Gateway:",
-    "options": " A. run fw ctl multik set_mode 9 in Expert mode and then reboot\n B. Using cpconfig, update the Dynamic Dispatcher value to "full" under the CoreXL menu\n C. Edit /proc/interrupts to include multik set_mode 1 at the bottom of the file, save, and reboot\n D. run fw ctl multik set_mode 1 in Expert mode and then reboot",
+    "options": " A. run fw ctl multik set_mode 9 in Expert mode and then reboot\n B. Using cpconfig, update the Dynamic Dispatcher value to 'full' under the CoreXL menu\n C. Edit /proc/interrupts to include multik set_mode 1 at the bottom of the file, save, and reboot\n D. run fw ctl multik set_mode 1 in Expert mode and then reboot",
     "answer": "a"
   },
  {
@@ -495,9 +495,7 @@
     "answer": "a"
   },
  {
-    "question": "Jennifer McHanry is CEO of ACME. She recently bought her own personal iPad. She wants use her iPad to access the internal Finance Web server. Because the iPad is not a member of the Active Directory domain, she cannot identify seamlessly with AD Query. However, she can enter her AD credentials in the Captive Portal and then get the same access as on her office computer. Her access to resources is based on rules in the R77 Firewall Rule Base.
-To make this scenario work, the IT administrator must:\n1)Enable Identity Awareness on a gateway and select Captive Portal as one of the Identity Sources.\n2)In the Portal Settings window in the User Access section, make sure that Name and password login is selected.\n3)Create a new rule in the Firewall Rule Base to let Jennifer McHanry access network destinations. Select accept as the Action.\n4)Install policy.
-Ms McHanry tries to access the resource but is unable. What should she do?",
+    "question": "Jennifer McHanry is CEO of ACME. She recently bought her own personal iPad. She wants use her iPad to access the internal Finance Web server. Because the iPad is not a member of the Active Directory domain, she cannot identify seamlessly with AD Query. However, she can enter her AD credentials in the Captive Portal and then get the same access as on her office computer. Her access to resources is based on rules in the R77 Firewall Rule Base. To make this scenario work, the IT administrator must:\n1)Enable Identity Awareness on a gateway and select Captive Portal as one of the Identity Sources.\n2)In the Portal Settings window in the User Access section, make sure that Name and password login is selected.\n3)Create a new rule in the Firewall Rule Base to let Jennifer McHanry access network destinations. Select accept as the Action.\n4)Install policy.\nMs McHanry tries to access the resource but is unable. What should she do?",
     "options": " A. Have the security administrator select the Action field of the Firewall Rule 'Redirect HTTP connections to an authentication (captive) portal'.\n B. Have the security administrator reboot the firewall.\n C. Have the security administrator select Any for the Machines tab in the appropriate Access Role.\n D. Install the Identity Awareness agent on her iPad.",
     "answer": "a"
   },
