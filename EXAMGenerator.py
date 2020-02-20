@@ -13,7 +13,7 @@ answers = []                #array with the good and given answers
 json_questions = 'questions-ccsa.json'     #json file containing the questions
 valid_answers = ['a', 'b', 'c', 'd']    #array with the valid options as answers
 valid_exams = ['CCSA R80']
-passing_score = 81
+passing_score = 71
 
 def presentation():
     print('\n\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')

@@ -266,7 +266,7 @@
   },
  {
     "question": "To fully enable Dynamic Dispatcher on a Security Gateway:",
-    "options": " A. run fw ctl multik set_mode 9 in Expert mode and then reboot\n B. Using cpconfig, update the Dynamic Dispatcher value to 'full' under the CoreXL menu\n C. Edit /proc/interrupts to include multik set_mode 1 at the bottom of the file, save, and reboot\n D. run fw ctl multik set_mode 1 in Expert mode and then reboot",
+    "options": " A. run fw ctl multik set_mode 9 in Expert mode and then reboot\n B. Using cpconfig, update the Dynamic Dispatcher value to "full" under the CoreXL menu\n C. Edit /proc/interrupts to include multik set_mode 1 at the bottom of the file, save, and reboot\n D. run fw ctl multik set_mode 1 in Expert mode and then reboot",
     "answer": "a"
   },
  {
@@ -495,13 +495,100 @@
     "answer": "a"
   },
  {
-    "question": "Jennifer McHanry is CEO of ACME. She recently bought her own personal iPad. She wants use her iPad to access the internal Finance Web server. Because the iPad is not a member of the Active Directory domain, she cannot identify seamlessly with AD Query. However, she can enter her AD credentials in the Captive Portal and then get the same access as on her office computer. Her access to resources is based on rules in the R77 Firewall Rule Base. To make this scenario work, the IT administrator must:\n1)Enable Identity Awareness on a gateway and select Captive Portal as one of the Identity Sources.\n2)In the Portal Settings window in the User Access section, make sure that Name and password login is selected.\n3)Create a new rule in the Firewall Rule Base to let Jennifer McHanry access network destinations. Select accept as the Action.\n4)Install policy. Ms McHanry tries to access the resource but is unable. What should she do?",
+    "question": "Jennifer McHanry is CEO of ACME. She recently bought her own personal iPad. She wants use her iPad to access the internal Finance Web server. Because the iPad is not a member of the Active Directory domain, she cannot identify seamlessly with AD Query. However, she can enter her AD credentials in the Captive Portal and then get the same access as on her office computer. Her access to resources is based on rules in the R77 Firewall Rule Base.
+To make this scenario work, the IT administrator must:\n1)Enable Identity Awareness on a gateway and select Captive Portal as one of the Identity Sources.\n2)In the Portal Settings window in the User Access section, make sure that Name and password login is selected.\n3)Create a new rule in the Firewall Rule Base to let Jennifer McHanry access network destinations. Select accept as the Action.\n4)Install policy.
+Ms McHanry tries to access the resource but is unable. What should she do?",
     "options": " A. Have the security administrator select the Action field of the Firewall Rule 'Redirect HTTP connections to an authentication (captive) portal'.\n B. Have the security administrator reboot the firewall.\n C. Have the security administrator select Any for the Machines tab in the appropriate Access Role.\n D. Install the Identity Awareness agent on her iPad.",
     "answer": "a"
   },
  {
-    "question": "When Identity Awareness is enabled, which identity sotirce(s) is(are) used for Application Control?",
+    "question": "When Identity Awareness is enabled, which identity source(s) is(are) used for Application Control?",
     "options": " A. RADIUS\n B. Remote Access and RADIUS\n C. AD Query\n D. AD Query and Browser-based Authentication",
     "answer": "d"
+  },
+ {
+    "question": "Which is a suitable command to check whether Drop Templates are activated or not?",
+    "options": " A. fw ctl get int activate_drop_templates\n B. fwaccel stat\n C. fwaccel stats\n D. fw ctl templates -d",
+    "answer": "b"
+  },
+ {
+    "question": "What is the Transport layer of the TCP/IP model responsible for?",
+    "options": " A. It transports packets as datagrams along different routes to reach their destination.\n B. It manages the flow of data between two hosts to ensure that the packets are correctly assembled and delivered to the target application.\n C. It defines the protocols that are used to exchange data between networks and how host programs interact with the Application layer.\n D. It deals with all aspects of the physical components of network connectivity and connects with different network types.",
+    "answer": "b"
+  },
+ {
+    "question": "Which of the following is a hash algorithm?",
+    "options": " A. 3DES\n B. IDEA\n C. DES\n D. MD5",
+    "answer": "d"
+  },
+ {
+    "question": "In the R80 SmartConsole, on which tab are Permissions and Administrators defined?",
+    "options": " A. Security Policies\n B. Logs and Monitor\n C. Manage and Settings\n D. Gateway and Servers",
+    "answer": "c"
+  },
+ {
+    "question": "On R80.10 when configuring Third-Party devices to read the logs using the LEA (Log Export API) the default Log Server uses port:",
+    "options": " A. 18210\n B. 18184\n C. 257\n D. 18191",
+    "answer": "b"
+  },
+ {
+    "question": "Packages and licenses are loaded from all of these sources EXCEPT",
+    "options": " A. Download Center Web site\n B. UserUpdate\n C. User Center\n D. Check Point DVD",
+    "answer": "b"
+  },
+ {
+    "question": "Choose the SmartLog property that is TRUE.",
+    "options": " A. SmartLog has been an option since release R71.10.\n B. SmartLog is not a Check Point product.\n C. SmartLog and SmartView Tracker are mutually exclusive.\n D. SmartLog is a client of SmartConsole that enables enterprises to centrally track log records and security activity with Google-like search.",
+    "answer": "d"
+  },
+ {
+    "question": "Fill in the blank: An LDAP server holds one or more",
+    "options": " A. Server Units\n B. Administrator Units\n C. Account Units\n D. Account Server",
+    "answer": "c"
+  },
+ {
+    "question": "What port is used for delivering logs from the gateway to the management server?",
+    "options": " A. Port 258\n B. Port 18209\n C. Port 257\n D. Port 981",
+    "answer": "c"
+  },
+ {
+    "question": "Which two Identity Awareness commands are used to support identity sharing?",
+    "options": " A. Policy Decision Point (PDP) and Policy Enforcement Point (PEP)\n B. Policy Enforcement Point (PEP) and Policy Manipulation Point (PMP)\n C. Policy Manipulation Point (PMP) and Policy Activation Point (PAP)\n D. Policy Activation Point (PAP) and Policy Decision Point (PDP)",
+    "answer": "a"
+  },
+ {
+    "question": "When using LDAP as an authentication method for Identity Awareness, the query:",
+    "options": " A. Requires client and server side software.\n B. Prompts the user to enter credentials.\n C. Requires administrators to specifically allow LDAP traffic to and from the LDAP Server and the Security Gateway.\n D. Is transparent, requiring no client or server side software, or client intervention.",
+    "answer": "d"
+  },
+ {
+    "question": "Fill in the blank: When LDAP is integrated with Check Point Security Management, it is then referred to as_______________",
+    "options": " A. UserCheck\n B. User Directory\n C. User Administration\n D. User Center",
+    "answer": "b"
+  },
+ {
+    "question": "Which GUI tool can be used to view and apply Check Point licenses?",
+    "options": " A. cpconfig\n B. Management Command Line\n C. SmartConsole\n D. SmartUpdate",
+    "answer": "d"
+  },
+ {
+    "question": "What happens when you run the command: fw sam -J src [Source IP Address]?",
+    "options": " A. Connections from the specified source are blocked without the need to change the Security Policy.\n B. Connections to the specified target are blocked without the need to change the Security Policy.\n C. Connections to and from the specified target are blocked without the need to change the Security Policy\n D. Connections to and from the specified target are blocked with the need to change the Security Policy.",
+    "answer": "a"
+  },
+ {
+    "question": "What are the two high availability modes?",
+    "options": " A. Load Sharing and Legacy\n B. Traditional and New\n C. Active and Standby\n D. New and Legacy",
+    "answer": "d"
+  },
+ {
+    "question": "To optimize Rule Base efficiency the most hit rules should be where?",
+    "options": " A. Removed from the Rule Base.\n B. Towards the middle of the Rule Base.\n C. Towards the top of the Rule Base.\n . Towards the bottom of the Rule Base.",
+    "answer": "c"
+  },
+ {
+    "question": "Which SmartConsole component can Administrators use to track changes to the Rule Base?",
+    "options": " A. WebUI\n B. SmartView Tracker\n C. SmartView Monitor\n D. SmartReporter",
+    "answer": "b"
   }
 ]
