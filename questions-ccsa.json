@@ -453,5 +453,57 @@
     "question": "You find a suspicious connection from a problematic host You decide that you want to block everything from that whole network, not just the problematic host You want to block this for an hour while you investigate further, but you do not want to add any rules to the Rule Base. How do you achieve this?",
     "options": " A. Use dbedit to script the addition of a rule directly into the Rule Bases_5_0. fws configuration file.\n B. Select Block intruder from the Tools menu in SmartView Tracker.\n C. Create a Suspicious Activity Rule in Smart Monitor.\n D. Add a temporary rule using SmartDashboard and select hide rule",
     "answer": "c"
+  },
+ {
+    "question": "What is the best sync method in the ClusterXL deployment?",
+    "options": " A. Use 1 cluster + 1 St sync\n B. Use 1 dedicated sync interface\n C. Use 3 clusters + 1 St sync + 2nd sync + 3rd sync\n D. Use 2 clusters + 1 St sync + 2nd sync",
+    "answer": "b"
+  },
+ {
+    "question": "Choose what BEST describes the Policy Layer Traffic Inspection.",
+    "options": " A. Ifapacket doesnot matchany of the inline layers, the matching continues to the next Layer.\n B. Ifapacket matches an inline layer, it will continue matching the next layer.\n C. Ifapacket doesnot matchany of the inline layers, the packet will be matched against the Implicit Clean-up Rule.\n D. Ifapacket doesnot matcha Network Policy Layer, the matching continues to its inline layer.",
+    "answer": "b"
+  },
+ {
+    "question": "Tom has been tasked to install Check Point R80 in a distributed deployment. Before Tom installs the systems this way, how many machines will he need if he does NOT include a SmartConsole machine in his calculations?",
+    "options": " A. One machine, but it needs to be installed using SecurePlatform for compatibility purposes.\n B. One machine\n C. Two machines\n D. Three machines",
+    "answer": "c"
+  },
+ {
+    "question": "Which of the following Automatically Generated Rules NAT rules have the lowest implementation priority?",
+    "options": " A. Machine Hide NAT\n B. Address Range Hide NAT\n C. Network Hide NAT\n D. Machine Static NAT",
+    "answer": "c"
+  },
+ {
+    "question": "Which of the following technologies extracts detailed information from packets and stores that information in state tables?",
+    "options": " A. INSPECT Engine\n B. Stateful Inspection\n C. Packet Filtering\n D. Application Layer Firewall",
+    "answer": "b"
+  },
+ {
+    "question": "Fill in the blank: With the User Directory Software Blade, you can create R80 user definitions on a(an)________________Server.",
+    "options": " A. NT domain\n B. SMTP\n C. LDAP\n D. SecurlD",
+    "answer": "c"
+  },
+ {
+    "question": "When defining QoS global properties, which option below is not valid?",
+    "options": " A. Weight\n B. Authenticated timeout\n C. Schedule\n D. Rate",
+    "answer": "c"
+  },
+ {
+    "question": "Which command is used to add users to or from existing roles?",
+    "options": " A. Add rba user <User Name> roles <List>\n B. Add rba user <User Name>\n C. Add user <User Name> roles <List>\n D. Add user <User Name>",
+    "answer": "a"
+  },
+ {
+    "question": "Jennifer McHanry is CEO of ACME. She recently bought her own personal iPad. She wants use her iPad to access the internal Finance Web server. Because the iPad is not a member of the Active Directory domain, she cannot identify seamlessly with AD Query. However, she can enter her AD credentials in the Captive Portal and then get the same access as on her office computer. Her access to resources is based on rules in the R77 Firewall Rule Base.
+To make this scenario work, the IT administrator must:\n1)Enable Identity Awareness on a gateway and select Captive Portal as one of the Identity Sources.\n2)In the Portal Settings window in the User Access section, make sure that Name and password login is selected.\n3)Create a new rule in the Firewall Rule Base to let Jennifer McHanry access network destinations. Select accept as the Action.\n4)Install policy.
+Ms McHanry tries to access the resource but is unable. What should she do?",
+    "options": " A. Have the security administrator select the Action field of the Firewall Rule "Redirect HTTP connections to an authentication (captive) portal".\n B. Have the security administrator reboot the firewall.\n C. Have the security administrator select Any for the Machines tab in the appropriate Access Role.\n D. Install the Identity Awareness agent on her iPad.",
+    "answer": "a"
+  },
+ {
+    "question": "When Identity Awareness is enabled, which identity sotirce(s) is(are) used for Application Control?",
+    "options": " A. RADIUS\n B. Remote Access and RADIUS\n C. AD Query\n D. AD Query and Browser-based Authentication",
+    "answer": "d"
   }
 ]
