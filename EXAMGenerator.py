@@ -7,7 +7,7 @@ by: boris a.
 """
 
 # GLOBAL VARIABLES
-number_questions = 15        #number of questions we want to ask
+number_questions = 5        #number of questions we want to ask
 questions_made = []         #array with the index of the questions already answered
 answers = []                #array with the good and given answers
 json_questions = 'questions-ccsa.json'     #json file containing the questions
@@ -74,11 +74,11 @@ def validate_answer(my_answer):
 #in that case, add the given answer along with the good answer to the answers array
 #return the given answer
 #otherwise ask the option again
-def answering(good_answer):
+def answering():
     while True:
         my_answer = raw_input('Answer: ').lower()
         if validate_answer(my_answer):
-            answers.append([my_answer, good_answer])
+            answers.append(my_answer)
             return my_answer
         else:
             print('Invalid option')
@@ -98,13 +98,31 @@ def print_final_score(points):
     else:
         print('|                 You didnt pass the test, better luck next time!                |')
     print('|                                                                                |')
-
-def print_answers():
     print(' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
-    print('\nResults: ')
-    print('\t    Your Answer   Correct Answer')
-    for i in range(0,len(answers)):
-        print('Question {0} :\t{1}       |       {2}'.format(i+1, answers[i][0].upper(), answers[i][1].upper()))
+
+# def print_answers():
+#     print('\nResults: ')
+#     print('\t    Your Answer   Correct Answer')
+#     for i in range(0,len(answers)):
+#         print('Question {0} :\t{1}       |       {2}'.format(i+1, answers[i][0].upper(), answers[i][1].upper()))
+
+#print the CORRECTIONS
+#get the index found in the questions_made array
+#print that question from the data, the options and the answer
+def print_corrections(data):
+    print('CORRECTIONS:')
+    for i in range(len(questions_made)):
+            index = int(questions_made[i])
+            question = data[index]['question']
+            options = data[index]['options']
+            answer = data[index]['answer']
+            print('Question {}: '.format(str(i+1)))
+            print(data[index]['question'])
+            print(data[index]['options'])
+            print('Correct answer : {}'.format(data[index]['answer'].upper()))
+            print('Your answer    : {}'.format(answers[i][0].upper()))
+            print('--------------------------------------------------------')
+
 
 #core of the EXAM
 #fetch the data from the json, execute the CORE while the amount of asked questions
@@ -120,11 +138,13 @@ def exam(user, exam_name):
         random_index = generate(length)
         print_question(data, random_index)
         good_answer = data[random_index]['answer']
-        my_answer = answering(good_answer)
+        my_answer = answering()
         if my_answer == good_answer:
             points += 1
     print_final_score(points)
-    print_answers()
+    choice_answers = raw_input('\nDo you want to see the corrections of the test? (Y/N)')
+    if(choice_answers.upper() == 'Y'):
+        print_corrections(data)
 
 def main():
     user, exam_name = presentation()
