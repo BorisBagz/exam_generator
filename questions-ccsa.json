@@ -423,5 +423,35 @@
     "question": "What SmartEvent component creates events?",
     "options": " A. Consolidation Policy\n B. Correlation Unit\n C. SmartEvent Policy\n D. SmartEvent GUI",
     "answer": "b"
+  },
+ {
+    "question": "Which feature is NOT provided by all Check Point Mobile Access solutions?",
+    "options": " A. Support for IPv6\n B. Granular access control\n C. Strong user authentication\n D. Secure connectivity",
+    "answer": "a"
+  },
+ {
+    "question": "To enforce the Security Policy correctly, a Security Gateway requires:",
+    "options": " A. a routing table\n B. awareness of the network topology\n C. a Demilitarized Zone\n D. a Security Policy install",
+    "answer": "b"
+  },
+ {
+    "question": "What are the three authentication methods for SIC?",
+    "options": " A. Passwords, Users, and standards-based SSL for the creation of security channels\n B. Certificates, standards-based SSL for the creation of secure channels, and 3DES or AES128 for encryption\n C. Packet Filtering, certificates, and 3DES or AES128 for encryption\n D. Certificates, Passwords, and Tokens",
+    "answer": "b"
+  },
+ {
+    "question": "You work as a security administrator for a large company. CSO of your company has attended a security conference where he has learnt how hackers constantly modify their strategies and techniques to evade detection and reach corporate resources. He wants to make sure that his company has the right protections in place. Check Point has been selected for the security vendor. Which Check Point products protects BEST against malware and zero-day attacks while ensuring quick delivery of safe content to your users?",
+    "options": " A. IPS and Application Control\n B. IPS, anti-virus and anti-bot\n C. IPS, anti-virus and e-mail security\n D. SandBlast",
+    "answer": "d"
+  },
+ {
+    "question": "Your company enforces a strict change control policy. Which of the following would be MOST effective for quickly dropping an attacker’s specific active connection?",
+    "options": " A. Change the Rule Base and install the Policy to all Security Gateways\n B. Block Intruder feature of SmartView Tracker\n C. Intrusion Detection System (IDS) Policy install\n D. SAM – Suspicious Activity Rules feature of SmartView Monitor",
+    "answer": "b"
+  },
+ {
+    "question": "You find a suspicious connection from a problematic host You decide that you want to block everything from that whole network, not just the problematic host You want to block this for an hour while you investigate further, but you do not want to add any rules to the Rule Base. How do you achieve this?",
+    "options": " A. Use dbedit to script the addition of a rule directly into the Rule Bases_5_0. fws configuration file.\n B. Select Block intruder from the Tools menu in SmartView Tracker.\n C. Create a Suspicious Activity Rule in Smart Monitor.\n D. Add a temporary rule using SmartDashboard and select hide rule",
+    "answer": "c"
   }
 ]
