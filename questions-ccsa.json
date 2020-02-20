@@ -110,7 +110,7 @@
     "answer": "c"
   },
   {
-    "question": "What are the advantages of a "shared policy" in R80?",
+    "question": "What are the advantages of a 'shared policy' in R80?",
     "options": " A. Allows the administrator to share a policy between all the users identified by the Security Gateway\n B. Allows the administrator to share a policy between all the administrators managing the Security Management Server\n C. Allows the administrator to share a policy so that it is available to use in another Policy Package\n D. Allows the administrator to install a policy on one Security Gateway and it gets installed on another managed Security Gateway",
     "answer": "c"
   },
