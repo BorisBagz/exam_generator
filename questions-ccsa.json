@@ -581,12 +581,152 @@
   },
  {
     "question": "To optimize Rule Base efficiency the most hit rules should be where?",
-    "options": " A. Removed from the Rule Base.\n B. Towards the middle of the Rule Base.\n C. Towards the top of the Rule Base.\n . Towards the bottom of the Rule Base.",
+    "options": " A. Removed from the Rule Base.\n B. Towards the middle of the Rule Base.\n C. Towards the top of the Rule Base.\n D. Towards the bottom of the Rule Base.",
     "answer": "c"
   },
  {
     "question": "Which SmartConsole component can Administrators use to track changes to the Rule Base?",
     "options": " A. WebUI\n B. SmartView Tracker\n C. SmartView Monitor\n D. SmartReporter",
+    "answer": "b"
+  },
+ {
+    "question": "In what way is Secure Network Distributor (SND) a relevant feature of the Security Gateway?",
+    "options": " A. SND is a feature to accelerate multiple SSL VPN connections\n B. SND is an alternative to IPSec Main Mode, using only 3 packets\n C. SND is used to distribute packets among Firewall instances\n D. SND is a feature of fw monitor to capture accelerated packets",
+    "answer": "c"
+  },
+ {
+    "question": "Choose what BEST describes the reason why querying logs now is very fast.",
+    "options": " A. New Smart-1 appliances double the physical memory install\n B. Indexing Engine indexes logs for faster search results\n C. SmartConsole now queries results directly from the Security Gateway\n D. The amount of logs been store is less than the usual in older versions",
+    "answer": "b"
+  },
+ {
+    "question": "The fw monitor utility is used to troubleshoot which of the following problems?",
+    "options": " A. Phase two key negotiation\n B. Address translation\n C. Log Consolidation Engine\n D. User data base corruption",
+    "answer": "b"
+  },
+ {
+    "question": "Which application should you use to install a contract file?",
+    "options": " A. SmartView Monitor\n B. WebUI\n C. SmartUpdate\n D. SmartProvisioning",
+    "answer": "c"
+  },
+ {
+    "question": "According to Check Point Best Practice, when adding a non-managed Check Point Gateway to a Check Point security solution what object SHOULD be added?",
+    "options": " A. Gateway\n B. Interoperable Device\n C. Externally managed gateway\n D. Network Node",
+    "answer": "c"
+  },
+ {
+    "question": "What happens if the identity of a user is known?",
+    "options": " A. If the user credentials do not match an Access Role, the traffic is automatically dropped.\n B. If the user credentials do not match an Access Role, the system displays a sandbox.\n C. If the user credentials do not match an Access Role, the gateway moves onto the next rule.\n D. If the user credentials do not match an Access Role, the system displays the Captive Portal.",
+    "answer": "c"
+  },
+ {
+    "question": "Which of the following is TRUE regarding Gaia command line?",
+    "options": " A. Configuration changes should be done in mgmt_cli and use CLISH for monitoring, Expert mode is used only for OS level tasks.\n B. Configuration changes should be done in expert-mode and CLISH is used for monitoring.\n C. Configuration changes should be done in mgmt-cli and use expert-mode for OS-level tasks.\n D. All configuration changes should be made in CLISH and expert-mode should be used for OS-level tasks.",
+    "answer": "d"
+  },
+ {
+    "question": "Which set of objects have an Authentication tab?",
+    "options": " A. Templates, Users\n B. Users, Networks\n C. Users, User Group\n D. Networks, Hosts",
+    "answer": "a"
+  },
+ {
+    "question": "Fill in the blank: Each cluster has ____ interfaces.",
+    "options": " A. Five\n B. Two\n C. Three\n D. Four",
+    "answer": "c"
+  },
+ {
+    "question": "The CPD daemon is a Firewall Kernel Process that does NOT do which of the following?",
+    "options": " A. Secure Internal Communication (SIC)\n B. Restart Daemons if they fail\n C. Transfer messages between Firewall processes\n D. Pulls application monitoring status",
+    "answer": "b"
+  },
+ {
+    "question": "Fill in the blank: The________is used to obtain identification and security information about network users.",
+    "options": " A. User Directory\n B. User server\n C. UserCheck\n D. User index",
+    "answer": "a"
+  },
+ {
+    "question": "MegaCorp’s security infrastructure separates Security Gateways geographically. You must request a central license for one remote Security Gateway. How do you apply the license?",
+    "options": " A. Using the remote Gateway’s IP address, and attaching the license to the remote Gateway via SmartUpdate.\n B. Using your Security Management Server’s IP address, and attaching the license to the remote Gateway via SmartUpdate.\n C. Using the remote Gateway’s IP address, and applying the license locally with command cplic put.\n D. Using each of the Gateway’s IP addresses, and applying the licenses on the Security Management Server with the command cprlic put.",
+    "answer": "b"
+  },
+ {
+    "question": "Bob and Joe both have Administrator Roles on their Gaia Platform. Bob logs in on the WebUI and then Joe logs in through CLI. Choose what BEST describes the following scenario, where Bob and Joe are both logged in:",
+    "options": " A. When Joe logs in, Bob will be log out automatically.\n B. Since they both are log in on different interfaces, they both will be able to make changes.\n C. If Joe tries to make changes, he won’t, database will be locked.\n D. Bob will be prompt that Joe logged in.",
+    "answer": "c"
+  },
+ {
+    "question": "Which policy type is used to enforce bandwidth and traffic control rules?",
+    "options": " A. Threat Emulation\n B. Access Control\n C. QoS\n D. Threat Prevention",
+    "answer": "c"
+  },
+ {
+    "question": "A digital signature:",
+    "options": " A. Guarantees the authenticity and integrity of a message.\n B. Automatically exchanges shared keys.\n C. Decrypts data to its original form.\n D. Provides a secure key exchange mechanism over the Internet.",
+    "answer": "a"
+  },
+ {
+    "question": "Choose the Best place to find a Security Management Server backup file named backup_fw, on a Check Point Appliance",
+    "options": " A. /var/log/Cpbackup/backups/backup/backup_fw.tgs\n B. /var/log/Cpbackup/backups/backup/backup_fw.tar\n C. /var/log/Cpbackup/backups/backups/backup_fw.tar\n D. /var/log/Cpbackup/backups/backup_fw.tgz",
+    "answer": "d"
+  },
+ {
+    "question": "Which one of the following is TRUE?",
+    "options": " A. Ordered policy is a sub-policy within another policy\n B. One policy can be either inline or ordered, but not both\n C. Inline layer can be defined as a rule action\n D. Pre-R80 Gateways do not support ordered layers",
+    "answer": "c"
+  },
+ {
+    "question": "Fill in the blank: Authentication rules are defined for__________",
+    "options": " A. User groups\n B. Users using UserCheck\n C. Individual users\n D. All users in the database",
+    "answer": "a"
+  },
+ {
+    "question": "Fill in the blank: A__________is used by a VPN gateway to send traffic as if it were a physical interface.",
+    "options": " A. VPN Tunnel Interface\n B. VPN community\n C. VPN router\n D. VPN interface",
+    "answer": "a"
+  },
+ {
+    "question": "What is the appropriate default Gaia Portal address?",
+    "options": " A. HTTP://[IPADDRESS]\n B. HTTPS://[IPADDRESS]:8080\n C. HTTPS://[IPADDRESS):4434\n D. HTTPS://[IPADDRESS]",
+    "answer": "d"
+  },
+ {
+    "question": "Fill in the blank: By default, the SIC certificates issued by R80 Management Server are based on the___________algorithm.",
+    "options": " A. SHA-256\n B. SHA-200\n C. MD5\n D. SHA-128",
+    "answer": "a"
+  },
+ {
+    "question": "During the Check Point Stateful Inspection Process, for packets that do not pass Firewall Kernel Inspection and are rejected by the rule definition, packets are:",
+    "options": " A. Dropped without sending a negative acknowledgment\n B. Dropped without logs and without sending a negative acknowledgment\n C. Dropped with negative acknowledgment\n D. Dropped with logs and without sending a negative acknowledgment",
+    "answer": "c"
+  },
+ {
+    "question": "Which method below is NOT one of the ways to communicate using the Management API’s?",
+    "options": " A. Typing API commands using the 'mgmt_cli' command\n B. Typing API commands from a dialog box inside the SmartConsole GUI application\n C. Typing API commands using Gaia’s secure shell (clash)19+\n D. Sending API commands over an http connection using web-services",
+    "answer": "d"
+  },
+ {
+    "question": "How many users can have read/write access in Gaia at one time?",
+    "options": " A. Infinite\n B. One\n C. Three\n D. Two",
+    "answer": "b"
+  },
+ {
+    "question": "Fill in the blank: The tool________generates a R80 Security Gateway configuration report.",
+    "options": " A. infoCP\n B. infoview\n C. cpinfo\n D. fw cpinfo",
+    "answer": "c"
+  },
+ {
+    "question": "Which of the following is NOT an authentication scheme used for accounts created through SmartConsole?",
+    "options": " A. Security questions\n B. Check Point password\n C. SecurlD\n D. RADIUS",
+    "answer": "a"
+  },
+ {
+    "question": "SmartEvent does NOT use which of the following procedures to identity events:",
+    "options": " A. Matching a log against each event definition\n B. Create an event candidate\n C. Matching a log against local exclusions\n D. Matching a log against global exclusions",
+    "answer": "c"
+  },
+ {
+    "question": "Which NAT rules are prioritized first?",
+    "options": " A. Post-Automatic/Manual NAT rules\n B. Manual/Pre-Automatic NAT\n C. Automatic Hide NAT\n D. Automatic Static NAT",
     "answer": "b"
   }
 ]
