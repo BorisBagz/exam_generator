@@ -701,7 +701,7 @@
   },
  {
     "question": "Which method below is NOT one of the ways to communicate using the Management API’s?",
-    "options": " A. Typing API commands using the 'mgmt_cli' command\n B. Typing API commands from a dialog box inside the SmartConsole GUI application\n C. Typing API commands using Gaia’s secure shell (clash)19+\n D. Sending API commands over an http connection using web-services",
+    "options": " A. Typing API commands using the "mgmt_cli" command\n B. Typing API commands from a dialog box inside the SmartConsole GUI application\n C. Typing API commands using Gaia’s secure shell (clash)19+\n D. Sending API commands over an http connection using web-services",
     "answer": "d"
   },
  {
@@ -727,6 +727,91 @@
  {
     "question": "Which NAT rules are prioritized first?",
     "options": " A. Post-Automatic/Manual NAT rules\n B. Manual/Pre-Automatic NAT\n C. Automatic Hide NAT\n D. Automatic Static NAT",
+    "answer": "b"
+  },
+ {
+    "question": "Which of the following is an authentication method used for Identity Awareness?",
+    "options": " A. SSL\n B. Captive Portal\n C. PKI\n D. RSA",
+    "answer": "b"
+  },
+ {
+    "question": "By default, which port does the WebUI listen on?",
+    "options": " A. 80\n B. 4434\n C. 443\n D. 8080",
+    "answer": "c"
+  },
+ {
+    "question": "What are the two types of address translation rules?",
+    "options": " A. Translated packet and untranslated packet\n B. Untranslated packet and manipulated packet\n C. Manipulated packet and original packet\n D. Original packet and translated packet",
+    "answer": "d"
+  },
+ {
+    "question": "The Captive Portal tool:",
+    "options": " A. Acquires identities from unidentified users.\n B. Is only used for guest user authentication.\n C. Allows access to users already identified.\n D. Is deployed from the Identity Awareness page in the Global Properties settings.",
+    "answer": "a"
+  },
+ {
+    "question": "Which of the following is NOT an attribute of packer acceleration?",
+    "options": " A. Source address\n B. Protocol\n C. Destination port\n D. Application Awareness",
+    "answer": "d"
+  },
+ {
+    "question": "Which deployment adds a Security Gateway to an existing environment without changing IP routing?",
+    "options": " A. Distributed\n B. Bridge Mode\n C. Remote\n D. Standalone",
+    "answer": "b"
+  },
+ {
+    "question": "Which of the following ClusterXL modes uses a non-unicast MAC address for the cluster IP address.",
+    "options": " A. High Availability\n B. Load Sharing Multicast\n C. Load Sharing Pivot\n D. Master/Backup",
+    "answer": "b"
+  },
+ {
+    "question": "Which of the following actions do NOT take place in IKE Phase 1 ?",
+    "options": " A. Peers agree on encryption method.\n B. Diffie-Hellman key is combined with the key material to produce the symmetrical IPsec key.\n C. Peers agree on integrity method.\n D. Each side generates a session key from its private key and peer’s public key.",
+    "answer": "b"
+  },
+ {
+    "question": "VPN gateways must authenticate to each other prior to exchanging information. What are the two types of credentials used for authentication?",
+    "options": " A. 3DES and MD5\n B. Certificates and IPsec\n C. Certificates and pre-shared secret\n D. IPsec and VPN Domains",
+    "answer": "c"
+  },
+ {
+    "question": "Which R77 GUI would you use to see number of packets accepted since the last policy install?",
+    "options": " A. SmartView Monitor\n B. SmartView Tracker\n C. SmartDashboard\n D. SmartView Status",
+    "answer": "a"
+  },
+ {
+    "question": "Which type of Endpoint Identity Agent includes packet tagging and computer authentication?",
+    "options": " A. Full\n B. Light\n C. Custom\n D. Complete",
+    "answer": "a"
+  },
+ {
+    "question": "When configuring LDAP User Directory integration, Changes applied to a User Directory template are:",
+    "options": " A. Reflected immediately for all users who are using template.\n B. Not reflected for any users unless the local user template is changed.\n C. Reflected for all users who are using that template and if the local user template is changed as well.\n D. Not reflected for any users who are using that template.",
+    "answer": "a"
+  },
+ {
+    "question": "In SmartView Tracker, which rule shows when a packet is dropped due to anti-spoofing?",
+    "options": " A. Rule 0\n B. Blank field under Rule Number\n C. Rule 1\n D. Cleanup Rule",
+    "answer": "a"
+  },
+ {
+    "question": "Which Check Point feature enables application scanning and the detection?",
+    "options": " A. Application Dictionary\n B. AppWiki\n C. Application Library\n D. CPApp",
+    "answer": "b"
+  },
+ {
+    "question": "You manage a global network extending from your base in Chicago to Tokyo, Calcutta and Dallas. Management wants a report detailing the current software level of each Enterprise class Security Gateway. You plan to take the opportunity to create a proposal outline, listing the most cost-effective way to upgrade your Gateways. Which two SmartConsole applications will you use to create this report and outline?",
+    "options": " A. SmartView Tracker and SmartView Monitor\n B. SmartLSM and SmartUpdate\n C. SmartDashboard and SmartView Tracker\n D. SmartView Monitor and SmartUpdate",
+    "answer": "d"
+  },
+ {
+    "question": "What is NOT an advantage of Packet Filtering?",
+    "options": " A. Low Security and No Screening above Network Layer\n B. Application Independence\n C. High Performance\n D. Scalability",
+    "answer": "a"
+  },
+ {
+    "question": "When logging in for the first time to a Security management Server through SmartConsole, a fingerprint is saved to the:",
+    "options": " A. Security Management Server’s /home/.fgpt file and is available for future SmartConsole authentications.\n B. Windows registry is available for future Security Management Server authentications.\n C. there is no memory used for saving a fingerprint anyway.\n D. SmartConsole cache is available for future Security Management Server authentications.",
     "answer": "b"
   }
 ]
