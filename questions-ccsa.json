@@ -701,7 +701,7 @@
   },
  {
     "question": "Which method below is NOT one of the ways to communicate using the Management API’s?",
-    "options": " A. Typing API commands using the "mgmt_cli" command\n B. Typing API commands from a dialog box inside the SmartConsole GUI application\n C. Typing API commands using Gaia’s secure shell (clash)19+\n D. Sending API commands over an http connection using web-services",
+    "options": " A. Typing API commands using the 'mgmt_cli' command\n B. Typing API commands from a dialog box inside the SmartConsole GUI application\n C. Typing API commands using Gaia’s secure shell (clash)19+\n D. Sending API commands over an http connection using web-services",
     "answer": "d"
   },
  {
@@ -812,6 +812,151 @@
  {
     "question": "When logging in for the first time to a Security management Server through SmartConsole, a fingerprint is saved to the:",
     "options": " A. Security Management Server’s /home/.fgpt file and is available for future SmartConsole authentications.\n B. Windows registry is available for future Security Management Server authentications.\n C. there is no memory used for saving a fingerprint anyway.\n D. SmartConsole cache is available for future Security Management Server authentications.",
+    "answer": "b"
+  },
+ {
+    "question": "Vanessa is a Firewall administrator. She wants to test a backup of her company’s production Firewall cluster Dallas_GW. She has a lab environment that is identical to her production environment. She decided to restore production backup via SmartConsole in lab environment. Which details she need to fill in System Restore window before she can click OK button and test the backup?",
+    "options": " A. Server, SCP, Username, Password, Path, Comment, Member\n B. Server, TFTP, Username, Password, Path, Comment, All Members\n C. Server, Protocol, Username, Password, Path, Comment, All Members\n D. Server, Protocol, Username. Password, Path, Comment, member",
+    "answer": "d"
+  },
+ {
+    "question": "Katie has been asked to do a backup on the Blue Security Gateway. Which command would accomplish this in the Gaia CLI?",
+    "options": " A. Blue > add local backup\n B. Expert&Blue#add local backing\n C. Blue > set backup local\n D. Blue > add backup local",
+    "answer": "d"
+  },
+ {
+    "question": "The WebUI offers three methods for downloading Hotfixes via CPUSE. One of them is Automatic method. How many times per day will CPUSE agent check for hotfixes and automatically download them?",
+    "options": " A. Six times per day\n B. Seven times per day\n C. Every two hours\n D. Every three hours",
+    "answer": "d"
+  },
+ {
+    "question": "Which remote Access Solution is clientless?",
+    "options": " A. Checkpoint Mobile\n B. Endpoint Security Suite\n C. SecuRemote\n D. Mobile Access Portal",
+    "answer": "d"
+  },
+ {
+    "question": "Which of the following uses the same key to decrypt as it does to encrypt?",
+    "options": " A. Asymmetric encryption\n B. Dynamic encryption\n C. Certificate-based encryption\n D. Symmetric encryption",
+    "answer": "d"
+  },
+ {
+    "question": "Which of the following is NOT an integral part of VPN communication within a network?",
+    "options": " A. VPN key\n B. VPN community\n C. VPN trust entities\n D. VPN domain",
+    "answer": "a"
+  },
+ {
+    "question": "Which of the following is NOT a VPN routing option available in a star community?",
+    "options": " A. To satellites through center only\n B. To center, or through the center to other satellites, to Internet and other VPN targets\n C. To center and to other satellites through center\n D. To center only",
+    "answer": "a"
+  },
+ {
+    "question": "Your manager requires you to setup a VPN to a new business partner site. The administrator from the partner site gives you his VPN settings and you notice that he setup AES 128 for IKE phase 1 and AES 256 for IKE phase 2. Why is this a problematic setup?",
+    "options": " A. The two algorithms do not have the same key length and so don’t work together. You will get the error …No proposal chosen…\n B. All is fine as the longest key length has been chosen for encrypting the data and a shorter key length for higher performance for setting up the tunnel.\n C. Only 128 bit keys are used for phase 1 keys which are protecting phase 2, so the longer key length in phase 2 only costs performance and does not add security due to a shorter key in phase 1.\n D. All is fine and can be used as is.",
+    "answer": "c"
+  },
+ {
+    "question": "Which of the following commands is used to verify license installation?",
+    "options": " A. Cplic verify license\n B. Cplic print\n C. Cplic show\n D. Cplic license",
+    "answer": "b"
+  },
+ {
+    "question": "Fill in the blank: The________software blade enables Application Security policies to allow, block, or limit website access based on user, group, and machine identities.",
+    "options": " A. Application Control\n B. Data Awareness\n C. URL Filtering\n D. Threat Emulation",
+    "answer": "c"
+  },
+ {
+    "question": "What are the three components for Check Point Capsule?",
+    "options": " A. Capsule Docs, Capsule Cloud, Capsule Connect\n B. Capsule Workspace, Capsule Cloud, Capsule Connect\n C. Capsule Workspace, Capsule Docs, Capsule Connect\n D. Capsule Workspace, Capsule Docs, Capsule Cloud",
+    "answer": "d"
+  },
+ {
+    "question": "You are the Security Administrator for MegaCorp. In order to see how efficient your firewall Rule Base is, you would like to see how many often the particular rules match. Where can you see it? Give the BEST answer.",
+    "options": " A. In the SmartView Tracker, if you activate the column Matching Rate\n B. In SmartReporter, in the section Firewall Blade – Activity > Network Activity with information concerning Top Matched Logged Rules\n C. SmartReporter provides this information in the section Firewall Blade – Security > Rule Base Analysis with information concerning Top Matched Logged Rules.\n D. It is not possible to see it directly. You can open SmartDashboard and select UserDefined in the Track column. Afterwards, you need to create your own program with an external counter.",
+    "answer": "c"
+  },
+ {
+    "question": "If there is an Accept Implied Policy set to 'First', what is the reason Jorge cannot see any logs?",
+    "options": " A. Log Implied Rule was not selected on Global Properties.\n B. Log Implied Rule was not set correctly on the track column on the rules base.\n C. Track log column is set to none.\n D. Track log column is set to Log instead of Full Log.",
+    "answer": "a"
+  },
+ {
+    "question": "SandBlast offers flexibility in implementation based on their individual business needs. What is an option for deployment of Check Point SandBlast Zero-Day Protection?",
+    "options": " A. Smart Cloud Services\n B. Load Sharing Mode Services\n C. Threat Agent Solution\n D. Public Cloud Services",
+    "answer": "a"
+  },
+ {
+    "question": "SandBlast offers flexibility in implementation based on their individual business needs. What is an option for deployment of Check Point SandBlast Zero-Day Protection?",
+    "options": " A. Firewall > Correlation Unit > Log Server > SmartEvent Server Database > SmartEvent Client\n B. Firewall > SmartEvent Server Database > Correlation Unit > Log Server > SmartEvent Client\n C. Firewall > Log Server > SmartEvent Server Database > Correlation Unit > SmartEvent Client\n D. Firewall > Log Server > Correlation Unit > SmartEvent Server Database > SmartEvent Client",
+    "answer": "d"
+  },
+ {
+    "question": "What is the benefit of Manual NAT over Automatic NAT?",
+    "options": " A. If you create a new Security Policy, the Manual NAT rules will be transferred to this new policy\n B. There is no benefit since Automatic NAT has in any case higher priority over Manual NAT\n C. You have the full control about the priority of the NAT rules\n D. On IPSO and GAIA Gateways, it is handled in a Stateful manner",
+    "answer": "c"
+  },
+ {
+    "question": "What is the BEST command to view configuration details of all interfaces in Gaia CLISH?",
+    "options": " A. ifconfig -a\n B. show interfaces\n C. show interfaces detail\n D. show configuration interface",
+    "answer": "d"
+  },
+ {
+    "question": "As a Security Administrator, you must refresh the Client Authentication authorized time-out every time a new user connection is authorized- How do you do this? Enable the Refreshable Timeout setting:",
+    "options": " A. in the user object’s Authentication screen.\n B. in the Gateway object’s Authentication screen\n C. in the Limit tab of the Client Authentication Action Properties screen.\n D. in the Global Properties Authentication screen.",
+    "answer": "c"
+  },
+ {
+    "question": "You have two rules, ten users, and two user groups in a Security Policy. You create database version 1 for this configuration. You then delete two existing users and add a new user group. You modify one rule and add two new rules to the Rule Base You save the Security Policy and create database version 2. After a while, you decide to roll back to version 1 to use the Rule Base, but you want to keep your user database. How can you do this?",
+    "options": " A. Run fwm dbexport -1 filename. Restore the database. Then, run fwm dbimport -1 filename to import the users.\n B. Run fwm_dbexport to export the user database. Select restore the entire database in the Database Revision screen. Then, run fwm_dbimport.\n C. Restore the entire database, except the user database, and then create the new user and user group.\n D. Restore the entire database, except the user database.",
+    "answer": "d"
+  },
+ {
+    "question": "Fill in the blanks: A Check Point software license consists of a________and_________",
+    "options": " A. Software container: software package\n B. Software blade; software container\n C. Software package; signature\n D. Signature; software blade",
+    "answer": "b"
+  },
+ {
+    "question": "Which of the following commands is used to monitor cluster members?",
+    "options": " A. cphaprob state\n B. cphaprob status\n C. cphaprob\n D. cluster state",
+    "answer": "a"
+  },
+ {
+    "question": "In Logging and Monitoring, the tracking options are Log, Detailed Log and Extended Log. Which of the following options can you add to each Log, Detailed Log and Extended Log?",
+    "options": " A. Accounting\n B. Suppression\n C. Accounting/Suppression\n D. Accounting/Extended",
+    "answer": "c"
+  },
+ {
+    "question": "When attempting to start a VPN tunnel, in the logs the error ‘no proposal chosen’ is seen numerous times. No other VPN-related log entries are present. Which phase of the VPN negotiations has failed?",
+    "options": " A. IKE Phase 1\n B. IPSEC Phase 2\n C. IPSEC Phase 1\n D. IKE Phase 2",
+    "answer": "a"
+  },
+ {
+    "question": "The security Gateway is installed on GAiA R80 The default port for the WEB User Interface is____________",
+    "options": " A. TCP 18211\n B. TCP 257\n C. TCP 4433\n D. TCP 443",
+    "answer": "d"
+  },
+ {
+    "question": "Which of the completed statements is NOT true? The WebUI can be used to manage user accounts and:",
+    "options": " A. assign privileges to users.\n B. edit the home directory of the user.\n C. add users to your Gaia system.\n D. assign user rights to their home directory in the Security Management Server",
+    "answer": "d"
+  },
+ {
+    "question": "To ensure that VMAC mode is enabled, which CLI command you should run on all cluster members? Choose the best answer.",
+    "options": " A. fw ctl set int fwha vmac global param enabled\n B. fw ctl get int fwha vmac global param enabled; result of command should return value 1\n C. cphaprob -a if\n D. fw ctl get int fwha_vmac_global_param_enabled; result of command should return value 1",
+    "answer": "c"
+  },
+ {
+    "question": "To ensure that VMAC mode is enabled, which CLI command you should run on all cluster members? Choose the best answer.",
+    "options": " A. fw ctl set int fwha vmac global param enabled\n B. fw ctl get int fwha vmac global param enabled; result of command should return value 1\n C. cphaprob -a if\n D. fw ctl get int fwha_vmac_global_param_enabled; result of command should return value 1",
+    "answer": "c"
+  },
+ {
+    "question": "In the Check Point Security Management Architecture, which component(s) can store logs?",
+    "options": " A. SmartConsole\n B. Security Management Server and Security Gateway\n C. Security Management Server\n D. SmartConsole and Security Management Server",
+    "answer": "b"
+  },
+ {
+    "question": "In the Check Point Security Management Architecture, which component(s) can store logs?",
+    "options": " A. SmartConsole\n B. Security Management Server and Security Gateway\n C. Security Management Server\n D. SmartConsole and Security Management Server",
     "answer": "b"
   }
 ]
