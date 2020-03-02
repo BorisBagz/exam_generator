@@ -958,5 +958,35 @@
     "question": "In the Check Point Security Management Architecture, which component(s) can store logs?",
     "options": " A. SmartConsole\n B. Security Management Server and Security Gateway\n C. Security Management Server\n D. SmartConsole and Security Management Server",
     "answer": "b"
+  },
+ {
+    "question": "You are about to test some rule and object changes suggested in an R77 news group. Which backup solution should you use to ensure the easiest restoration of your Security Policy to its previous configuration after testing the changes?",
+    "options": " A. Manual copies of the directory $FWDIR/conf\n B. upgrade_export command\n C. Database Revision Control\n D. GAiA backup utilities",
+    "answer": "c"
+  },
+ {
+    "question": "In which deployment is the security management server and Security Gateway installed on the same appliance?",
+    "options": " A. Bridge Mode\n B. Remote\n C. Standalone\n D. Distributed",
+    "answer": "c"
+  },
+ {
+    "question": "What is the difference between an event and a log?",
+    "options": " A. Events are generated at gateway according to Event Policy\n B. A log entry becomes an event when it matches any rule defined in Event Policy\n C. Events are collected with SmartWorkflow from Trouble Ticket systems\n D. Logs and Events are synonyms",
+    "answer": "b"
+  },
+ {
+    "question": "While enabling the Identity Awareness blade the Identity Awareness wizard does not automatically detect the windows domain. Why does it not detect the windows domain?",
+    "options": " A. Security Gateways is not part of the Domain\n B. SmartConsole machine is not part of the domain\n C. SMS is not part of the domain\n D. Identity Awareness is not enabled on Global properties",
+    "answer": "b"
+  },
+ {
+    "question": "Fill in the blank: To build an effective Security Policy, use a__________and_________rule.",
+    "options": " A. Cleanup; stealth\n B. Stealth; implicit\n C. Cleanup; default\n D. Implicit; explicit",
+    "answer": "a"
+  },
+ {
+    "question": "Under which file is the proxy arp configuration stored?",
+    "options": " A. $FWDIR/state/proxy_arp.conf on the management server\n B. $FWDIR/conf/local.arp on the management server\n C. $FWDIR/state/_tmp/proxy.arp on the security gateway\n D. $FWDIR/conf/local.arp on the gateway",
+    "answer": "d"
   }
 ]
