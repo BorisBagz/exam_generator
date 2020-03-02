@@ -1,0 +1,23 @@
+Installing Python 2.7 on Windows:
+
+1. Download the msi from https://www.python.org/downloads/release/python-2717/
+
+2. Install the msi file.
+
+3. Go to Control Panel > System > Advanced system settings.
+
+4. In the System Properties go to the Advanced Tab.
+
+5. Click on 'Environment Variables'.
+
+6. On the System Variables panel double-click on 'Path'.
+
+7. Select 'New' and add C:\Python27 (If you left the default installation location for Python) 
+
+8. Select 'New' and add C:\Python27\Scripts
+
+9. Click 'OK'
+
+10. Go to 'C:\Python27' and change the name of 'python.exe' to 'python2.exe'
+
+11. Open a CMD and run 'python2 --version' to check that everything is ok.
