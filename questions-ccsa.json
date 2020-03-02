@@ -988,5 +988,50 @@
     "question": "Under which file is the proxy arp configuration stored?",
     "options": " A. $FWDIR/state/proxy_arp.conf on the management server\n B. $FWDIR/conf/local.arp on the management server\n C. $FWDIR/state/_tmp/proxy.arp on the security gateway\n D. $FWDIR/conf/local.arp on the gateway",
     "answer": "d"
+  }, 
+ {
+    "question": "What action can be performed from SmartUpdate",
+    "options": " A. upgrade_export\n B. fw stat -1\n C. cpinfo\n D. remote_uninstall_verifier",
+    "answer": "c"
+  },
+ {
+    "question": "What is the default method for destination NAT?",
+    "options": " A. Destination side\n B. Source side\n C. Server side\n D. Client side",
+    "answer": "d"
+  },
+ {
+    "question": "AdminA and AdminB are both logged in on SmartConsole. What does it mean if AdminB sees a locked icon on a rule? Choose the BEST answer.",
+    "options": " A. Rule is locked by AdminA, because the save bottom has not been press.\n B. Rule is locked by AdminA, because an object on that rule is been edited.\n C. Rule is locked by AdminA, and will make it available if session is published.\n D. Rule is locked by AdminA, and if the session is saved, rule will be available",
+    "answer": "c"
+  },
+ {
+    "question": "At what point is the Internal Certificate Authority (ICA) created?",
+    "options": " A. Upon creation of a certificate\n B. During the primary Security Management Server installation process.\n C. When an administrator decides to create one.\n D. When an administrator initially logs into SmartConsole.",
+    "answer": "b"
+  },
+ {
+    "question": "Which Check Point software blade provides visibility of users, groups and machines while also providing access control through identity-based policies?",
+    "options": " A. Firewall\n B. Identity Awareness\n C. Application Control\n D. URL Filtering",
+    "answer": "b"
+  },
+ {
+    "question": "Which of the following is NOT an advantage to using multiple LDAP servers?",
+    "options": " A. You achieve a faster access time by placing LDAP servers containing the database at remote sites\n B. Information on a user is hidden, yet distributed across several servers\n C. You achieve compartmentalization by allowing a large number of users to be distributed across several servers\n D. You gain High Availability by replicating the same information on several servers",
+    "answer": "b"
+  },
+ {
+    "question": "What are the three conflict resolution rules in the Threat Prevention Policy Layers?",
+    "options": " A. Conflict on action, conflict on exception, and conflict on settings\n B. Conflict on scope, conflict on settings, and conflict on exception\n C. Conflict on settings, conflict on address, and conflict on exception\n D. Conflict on action, conflict on destination, and conflict on settings",
+    "answer": "a"
+  },
+ {
+    "question": "When a packet arrives at the gateway, the gateway checks it against the rules in the top Policy Layer, sequentially from top to bottom, and enforces the first rule that matches a packet. Which of the following statements about the order of rule enforcement is true?",
+    "options": " A. If the Action is Accept, the gateway allows the packet to pass through the gateway.\n B. If the Action is Drop, the gateway continues to check rules in the next Policy Layer down.\n C. If the Action is Accept, the gateway continues to check rules in the next Policy Layer down.\n D. If the Action is Drop, the gateway applies the Implicit Clean-up Rule for that Policy Layer.",
+    "answer": "c"
+  },
+ {
+    "question": "Which options are given on features, when editing a Role on Gaia Platform?",
+    "options": " A. Read/Write, Read Only\n B. Read/Write, Read only, None\n C. Read/Write, None\n D. Read Only, None",
+    "answer": "b"
   }
 ]

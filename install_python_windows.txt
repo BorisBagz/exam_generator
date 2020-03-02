@@ -20,4 +20,4 @@ Installing Python 2.7 on Windows:
 
 10. Go to 'C:\Python27' and change the name of 'python.exe' to 'python2.exe'
 
-11. Open a CMD and run 'python2 --version' to check that everything is ok.
+11. Open a CMD and run 'python EXAMGenerator.py'.
