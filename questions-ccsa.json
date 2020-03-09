@@ -988,41 +988,11 @@
     "question": "Under which file is the proxy arp configuration stored?",
     "options": " A. $FWDIR/state/proxy_arp.conf on the management server\n B. $FWDIR/conf/local.arp on the management server\n C. $FWDIR/state/_tmp/proxy.arp on the security gateway\n D. $FWDIR/conf/local.arp on the gateway",
     "answer": "d"
-  }, 
- {
-    "question": "What action can be performed from SmartUpdate",
-    "options": " A. upgrade_export\n B. fw stat -1\n C. cpinfo\n D. remote_uninstall_verifier",
-    "answer": "c"
   },
  {
-    "question": "What is the default method for destination NAT?",
-    "options": " A. Destination side\n B. Source side\n C. Server side\n D. Client side",
-    "answer": "d"
-  },
- {
-    "question": "AdminA and AdminB are both logged in on SmartConsole. What does it mean if AdminB sees a locked icon on a rule? Choose the BEST answer.",
-    "options": " A. Rule is locked by AdminA, because the save bottom has not been press.\n B. Rule is locked by AdminA, because an object on that rule is been edited.\n C. Rule is locked by AdminA, and will make it available if session is published.\n D. Rule is locked by AdminA, and if the session is saved, rule will be available",
-    "answer": "c"
-  },
- {
-    "question": "At what point is the Internal Certificate Authority (ICA) created?",
-    "options": " A. Upon creation of a certificate\n B. During the primary Security Management Server installation process.\n C. When an administrator decides to create one.\n D. When an administrator initially logs into SmartConsole.",
+    "question": "Which options are given on features, when editing a Role on Gaia Platform?",
+    "options": " A. Read/Write, Read Only\n B. Read/Write, Read only, None\n C. Read/Write, None\n D. Read Only, None",
     "answer": "b"
-  },
- {
-    "question": "Which Check Point software blade provides visibility of users, groups and machines while also providing access control through identity-based policies?",
-    "options": " A. Firewall\n B. Identity Awareness\n C. Application Control\n D. URL Filtering",
-    "answer": "b"
-  },
- {
-    "question": "Which of the following is NOT an advantage to using multiple LDAP servers?",
-    "options": " A. You achieve a faster access time by placing LDAP servers containing the database at remote sites\n B. Information on a user is hidden, yet distributed across several servers\n C. You achieve compartmentalization by allowing a large number of users to be distributed across several servers\n D. You gain High Availability by replicating the same information on several servers",
-    "answer": "b"
-  },
- {
-    "question": "What are the three conflict resolution rules in the Threat Prevention Policy Layers?",
-    "options": " A. Conflict on action, conflict on exception, and conflict on settings\n B. Conflict on scope, conflict on settings, and conflict on exception\n C. Conflict on settings, conflict on address, and conflict on exception\n D. Conflict on action, conflict on destination, and conflict on settings",
-    "answer": "a"
   },
  {
     "question": "When a packet arrives at the gateway, the gateway checks it against the rules in the top Policy Layer, sequentially from top to bottom, and enforces the first rule that matches a packet. Which of the following statements about the order of rule enforcement is true?",
@@ -1030,8 +1000,73 @@
     "answer": "c"
   },
  {
-    "question": "Which options are given on features, when editing a Role on Gaia Platform?",
-    "options": " A. Read/Write, Read Only\n B. Read/Write, Read only, None\n C. Read/Write, None\n D. Read Only, None",
+    "question": "Which product correlates logs and detects security threats, providing a centralized display of potential attack patterns from all network devices?",
+    "options": " A. SmartView Monitor\n B. SmartEvent\n C. SmartUpdate\n D. SmartDashboard",
     "answer": "b"
+  },
+ {
+    "question": "Which of the following is an identity acquisition method that allows a Security Gateway to identify Active Directory users and computers?",
+    "options": " A. UserCheck\n B. Active Directory Query\n C. Account Unit Query\n D. User Directory Query",
+    "answer": "b"
+  },
+ {
+    "question": "Where do we need to reset the SIC on a gateway object?",
+    "options": " A. SmartDashboard > Edit Gateway Object > General Properties > Communication\n B. SmartUpdate > Edit Security Management Server Object > SIC\n C. SmartUpdate > Edit Gateway Object > Communication\n D. SmartDashboard > Edit Security Management Server Object > SIC",
+    "answer": "a"
+  },
+ {
+    "question": "All R77 Security Servers can perform authentication with the exception of one. Which of the Security Servers can NOT perform authentication?",
+    "options": " A. FTP\n B. SMTP\n C. HTTP\n D. RLOGIN",
+    "answer": "b"
+  },
+ {
+    "question": "Using mgmt_cli, what is the correct syntax to import a host object called Server_1 from the CLI?",
+    "options": " A. mgmt_cli add-host 'Server_1' ip.address '10.15.123.10' –format txt\n B. mgmt_cli add host name 'Server_1' ip_address '10.15.123.10' –format json\n C. mgmt_cli add object-host 'Server_1' ip_address '10.15.123.10' –format json\n D. mgmt_cIi add object 'Server_1' ip_address '10.15.123.10' –format json",
+    "answer": "b"
+  },
+ {
+    "question": "NAT can NOT be configured on which of the following objects?",
+    "options": " A. HTTP Logical Server\n B. Gateway\n C. Address Range\n D. Host",
+    "answer": "a"
+  },
+ {
+    "question": "Using ClusterXL, what statement is true about the Sticky Decision Function?",
+    "options": " A. Can only be changed for Load Sharing implementations\n B. All connections are processed and synchronized by the pivot\n C. Is configured using cpconfig\n D. Is only relevant when using SecureXL",
+    "answer": "a"
+  },
+ {
+    "question": "Fill in the blanks: The__________collects logs and sends them to the__________",
+    "options": " A. Log server; security management server\n B. Log server, Security Gateway\n C. Security management server; Security Gateway\n D. Security Gateways; log server",
+    "answer": "d"
+  },
+ {
+    "question": "When installing a dedicated R80 SmartEvent server, what is the recommended size of the root partition?",
+    "options": " A. Any size\n B. Less than 20GB\n C. More than 10GB and less than 20 GB\n D. At least 20GB",
+    "answer": "d"
+  },
+ {
+    "question": "Fill in the blank: When tunnel test packets no longer invoke a response, SmartView Monitor displays______________for the given VPN tunnel.",
+    "options": " A. Down\n B. No Response\n C. Inactive\n D. Failed",
+    "answer": "a"
+  },
+ {
+    "question": "What is the potential downside or drawback to choosing the Standalone deployment option instead of the Distributed deployment option?",
+    "options": " A. degrades performance as the Security Policy grows in size\n B. requires additional Check Point appliances\n C. requires additional software subscription\n D. increases cost",
+    "answer": "a"
+  },
+ {
+    "question": "Fill in the blank: Once a license is activated, a _______ should be installed.",
+    "options": " A. License Management file\n B. Security Gateway Contract file\n C. Service Contract file\n D. License Contract file",
+    "answer": "c"
+  },
+ {
+    "question": "Which of these attributes would be critical for a site-to-site VPN?",
+    "options": " A. Scalability to accommodate user groups\n B. Centralized management\n C. Strong authentication\n D. Strong data encryption",
+    "answer": "d"
+  },
+ {
+    "question": "Mesh and Star are two types of VPN topologies. Which statement below is TRUE about these types of communities?",
+    "options": " A. A star community requires Check Point gateways, as it is a Check Point proprietary technology.\n B. In a star community, satellite gateways cannot communicate with each other.\n C. In a mesh community, member gateways cannot communicate directly with each other.\n D. In a mesh community, all members can create a tunnel with any other member.",
+    "answer": "d"
   }
 ]
