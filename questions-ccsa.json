@@ -885,11 +885,6 @@
     "answer": "a"
   },
  {
-    "question": "SandBlast offers flexibility in implementation based on their individual business needs. What is an option for deployment of Check Point SandBlast Zero-Day Protection?",
-    "options": " A. Firewall > Correlation Unit > Log Server > SmartEvent Server Database > SmartEvent Client\n B. Firewall > SmartEvent Server Database > Correlation Unit > Log Server > SmartEvent Client\n C. Firewall > Log Server > SmartEvent Server Database > Correlation Unit > SmartEvent Client\n D. Firewall > Log Server > Correlation Unit > SmartEvent Server Database > SmartEvent Client",
-    "answer": "d"
-  },
- {
     "question": "What is the benefit of Manual NAT over Automatic NAT?",
     "options": " A. If you create a new Security Policy, the Manual NAT rules will be transferred to this new policy\n B. There is no benefit since Automatic NAT has in any case higher priority over Manual NAT\n C. You have the full control about the priority of the NAT rules\n D. On IPSO and GAIA Gateways, it is handled in a Stateful manner",
     "answer": "c"
