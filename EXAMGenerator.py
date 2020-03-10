@@ -1,5 +1,6 @@
 import json
 import random
+import os
 
 """
 EXAM GENERATOR
@@ -147,6 +148,9 @@ def exam(user, exam_name):
         print_corrections(data)
 
 def main():
+    #if we're on linux we clear the screen when launching the script
+    if os.name == "posix":
+        os.system("clear")
     user, exam_name = presentation()
     exam(user, exam_name)
 
