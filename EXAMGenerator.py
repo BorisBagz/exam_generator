@@ -148,9 +148,11 @@ def exam(user, exam_name):
         print_corrections(data)
 
 def main():
-    #if we're on linux we clear the screen when launching the script
+    #we clear the screen when launching the script, depends on the OS
     if os.name == "posix":
         os.system("clear")
+    elif os.name == "nt":
+        os.system("cls")
     user, exam_name = presentation()
     exam(user, exam_name)
 
