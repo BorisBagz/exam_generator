@@ -86,7 +86,7 @@
   },
   {
     "question": "Fill in the blanks: There are ________ types of software containers ________.",
-    "options": " A. Status monitoring\n B. Policy configuration\n C. Certificate authority\n D. Address translation",
+    "options": " A. Software container: software package\n B. Software blade; software container\n C. Software package; signature\n D. Signature; software blade",
     "answer": "a"
   },
   {
@@ -905,11 +905,6 @@
     "answer": "d"
   },
  {
-    "question": "Fill in the blanks: A Check Point software license consists of a________and_________",
-    "options": " A. Software container: software package\n B. Software blade; software container\n C. Software package; signature\n D. Signature; software blade",
-    "answer": "b"
-  },
- {
     "question": "Which of the following commands is used to monitor cluster members?",
     "options": " A. cphaprob state\n B. cphaprob status\n C. cphaprob\n D. cluster state",
     "answer": "a"
@@ -1063,5 +1058,100 @@
     "question": "Mesh and Star are two types of VPN topologies. Which statement below is TRUE about these types of communities?",
     "options": " A. A star community requires Check Point gateways, as it is a Check Point proprietary technology.\n B. In a star community, satellite gateways cannot communicate with each other.\n C. In a mesh community, member gateways cannot communicate directly with each other.\n D. In a mesh community, all members can create a tunnel with any other member.",
     "answer": "d"
+  },
+ {
+    "question": "Vanessa is firewall administrator in her company; her company is using Check Point firewalls on central and remote locations, which are managed centrally by R80 Security Management Server. One central location has an installed R77.30 Gateway on Open server. Remote location is using Check Point UTM-1 570 series appliance with R71. Which encryption is used in Secure Internal Communication (SIC) between central management and firewall on each location?",
+    "options": " A. On central firewall AES 128 encryption is used for SIC, on Remote firewall 3DES encryption is used for SIC.\n B. On both firewalls, the same encryption is used for SIC. This is AES-GCM-256.\n C. The Firewall Administrator can choose which encryption suite will be used by SIC.\n D. On central firewall AES256 encryption is used for SIC, on Remote firewall AES128 encryption is used for SIC.",
+    "answer": "a"
+  },
+ {
+    "question": "To install a brand new Check Point Cluster, the MegaCorp IT department bought 1 Smart-1 and 2 Security Gateway Appliances to run a cluster. Which type of cluster is it?",
+    "options": " A. Full HA Cluster\n B. High Availability\n C. Standalone\n D. Distributed",
+    "answer": "b"
+  },
+ {
+    "question": "In SmartEvent, what are the different types of automatic reactions that the administrator can configure?",
+    "options": " A. Mail, Block Source, Block Event Activity, External Script, SNMP Trap\n B. Mail, Block Source, Block Destination, Block Services, SNMP Trap\n C. Mail, Block Source, Block Destination, External Script, SNMP Trap\n D. Mail, Block Source, Block Event Activity, Packet Capture, SNMP Trap",
+    "answer": "a"
+  },
+ {
+    "question": "Which one of the following is the preferred licensing model? Select the Best answer.",
+    "options": " A. Local licensing because it ties the package license to the IP-address of the gateway and has no dependency of the Security Management Server.\n B. Central licensing because it ties the package license to the IP-address of the Security Management Server and has no dependency of the gateway.\n C. Local licensing because it ties the package license to the MAC-address of the gateway management interface and has no Security Management Server dependency.\n D. Central licensing because it ties the package license to the MAC-address of the Security Management Server Mgmt-interface and has no dependency of the gateway.",
+    "answer": "b"
+  },
+ {
+    "question": "The IT Management team is interested in the new features of the Check Point R80 Management and wants to upgrade but they are concerned that the existing R77.30 Gaia Gateways cannot be managed by R80 because it is so different. As the administrator responsible for the Firewalls, how can you answer or confirm these concerns?",
+    "options": " A. R80 Management contains compatibility packages for managing earlier versions of Check Point Gateways prior to R80. Consult the R80 Release Notes for more information.\n B. R80 Management requires the separate installation of compatibility hotfix packages for managing the earlier versions of Check Point Gateways prior to R80. Consult the R80 Release Notes for more information.\n C. R80 Management was designed as a completely different Management system and so can only monitor Check Point Gateways prior to R80.\n D. R80 Management cannot manage earlier versions of Check Point Gateways prior to R80. Only R80 and above Gateways can be managed. Consult the R80 Release Notes for more information.",
+    "answer": "a"
+  },
+ {
+    "question": "Which firewall daemon is responsible for the FW CLI commands?",
+    "options": " A. fwd\n B. fwm\n C. cpm\n D. cpd",
+    "answer": "a"
+  },
+ {
+    "question": "Which of the following authentication methods can be configured in the Identity Awareness setup wizard?",
+    "options": " A. Check Point Password\n B. TACACS\n C. LDAP\n D. Windows password",
+    "answer": "c"
+  },
+ {
+    "question": "You have discovered suspicious activity in your network. What is the BEST immediate action to take?",
+    "options": " A. Create a policy rule to block the traffic.\n B. Create a suspicious action rule to block that traffic.\n C. Wait until traffic has been identified before making any changes.\n D. Contact ISP to block the traffic.",
+    "answer": "b"
+  },
+ {
+    "question": "Joey wants to configure NTP on R80 Security Management Server. He decided to do this via WebUI. What is the correct address to access the Web Ul for Gaia platform via browser?",
+    "options": " A. https://<Device_IP_Address>\n B. https://<Device_IP_Address>:443\n C. https://<Device_IP_Address>:10000\n D. https://<Device_IP_Address>:4434",
+    "answer": "a"
+  },
+ {
+    "question": "Which of the following is NOT an option for internal network definition of Anti-spoofing?",
+    "options": " A. Specific – derived from a selected object\n B. Route-based – derived from gateway routing table\n C. Network defined by the interface IP and Net Mask\n D. Not-defmed",
+    "answer": "b"
+  },
+ {
+    "question": "Fill in the blank: A__________VPN deployment is used to provide remote users with secure access to internal corporate resources by authenticating the user through an internet browser.",
+    "options": " A. Clientless remote access\n B. Clientless direct access\n C. Client-based remote access\n D. Direct access",
+    "answer": "a"
+  },
+ {
+    "question": "When you upload a package or license to the appropriate repository in SmartUpdate, where is the package or license stored",
+    "options": " A. Security Gateway\n B. Check Point user center\n C. Security Management Server\n D. SmartConsole installed device",
+    "answer": "c"
+  },
+ {
+    "question": "You find that Users are not prompted for authentication when they access their Web servers, even though you have created an HTTP rule via User Authentication. Choose the BEST reason why.",
+    "options": " A. You checked the cache password on desktop option in Global Properties\n B. Another rule that accepts HTTP without authentication exists in the Rule Base.\n C. You have forgotten to place the User Authentication Rule before the Stealth Rule.\n D. Users must use the SecuRemote Client, to use the User Authentication Rule.",
+    "answer": "b"
+  },
+ {
+    "question": "Can multiple administrators connect to a Security Management Server at the same time?",
+    "options": " A. No, only one can be connected\n B. Yes, all administrators can modify a network object at the same time\n C. Yes, every administrator has their own username, and works in a session that is independent of other administrators\n D. Yes, but only one has the right to write",
+    "answer": "d"
+  },
+ {
+    "question": "Using R80 Smart Console, what does a 'pencil icon' in a rule mean?",
+    "options": " A. I have changed this rule\n B. Someone else has changed this rule\n C. This rule is managed by check point’s SOC\n D. This rule can’t be changed as it’s an implied rule",
+    "answer": "a"
+  },
+ {
+    "question": "Which of the following licenses are considered temporary?",
+    "options": " A. Perpetual and Trial\n B. Plug-and-play and Evaluation\n C. Subscription and Perpetual\n D. Evaluation and Subscription",
+    "answer": "b"
+  },
+ {
+    "question": "Fill in the blanks: A High Availability deployment is referred to as a__________cluster and a Load Sharing deployment is referred to as a_________cluster.",
+    "options": " A. Standby/standby; active/active\n B. Active/active; standby/standby\n C. Active/active; active/standby;\n D. Active/standby; active/active",
+    "answer": "d"
+  },
+ {
+    "question": "What is the default shell for the command line interface?",
+    "options": " A. Expert\n B. Clish\n C. Admin\n D. Normal",
+    "answer": "b"
+  },
+ {
+    "question": "Which type of the Check Point license ties the package license to the IP address of the Security Management Server?",
+    "options": " A. Local\n B. Central\n C. Corporate\n D. Formal",
+    "answer": "b"
   }
 ]
