@@ -1225,12 +1225,7 @@
     "answer": "a"
   },
  {
-    "question": "You have enabled “Full Log" as a tracking option to a security rule. However, you are still not seeing any data type information. What is the MOST likely reason?",
-    "options": " A. Logging has disk space issues. Change logging storage options on the logging server or Security Management Server properties and install database.\n B. Data Awareness is not enabled.\n C. Identity Awareness is not enabled.\n D. Logs are arriving from Pre-R80 gateways.",
-    "answer": "a"
-  },
- {
-    "question": "You have enabled “Full Log" as a tracking option to a security rule. However, you are still not seeing any data type information. What is the MOST likely reason?",
+    "question": "You have enabled 'Full Log' as a tracking option to a security rule. However, you are still not seeing any data type information. What is the MOST likely reason?",
     "options": " A. Logging has disk space issues. Change logging storage options on the logging server or Security Management Server properties and install database.\n B. Data Awareness is not enabled.\n C. Identity Awareness is not enabled.\n D. Logs are arriving from Pre-R80 gateways.",
     "answer": "a"
   },
