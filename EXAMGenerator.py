@@ -1,6 +1,7 @@
 import json
 import random
 import os
+from termcolor import colored
 
 """
 EXAM GENERATOR
@@ -8,7 +9,7 @@ by: boris a.
 """
 
 # GLOBAL VARIABLES
-number_questions = 50        #number of questions we want to ask
+number_questions = 5        #number of questions we want to ask
 questions_made = []         #array with the index of the questions already answered
 answers = []                #array with the good and given answers
 json_questions = 'questions-ccsa.json'     #json file containing the questions
@@ -95,17 +96,12 @@ def print_final_score(points):
     print('|                                                                                |')
     print('|    Your final score is {0} % - You answered correctly {1} out of {2} questions.     |'.format(score, points, number_questions))
     if score >= passing_score:
-        print('|                      You passed the test! Congratulations!                     |')
+        print colored('|                      You passed the test! Congratulations!                     |', 'green')
     else:
-        print('|                 You didnt pass the test, better luck next time!                |')
+        print colored('|                 You didnt pass the test, better luck next time!                |', 'red')
     print('|                                                                                |')
     print(' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
 
-# def print_answers():
-#     print('\nResults: ')
-#     print('\t    Your Answer   Correct Answer')
-#     for i in range(0,len(answers)):
-#         print('Question {0} :\t{1}       |       {2}'.format(i+1, answers[i][0].upper(), answers[i][1].upper()))
 
 #print the CORRECTIONS
 #get the index found in the questions_made array
@@ -118,10 +114,16 @@ def print_corrections(data):
             options = data[index]['options']
             answer = data[index]['answer']
             print('Question {}: '.format(str(i+1)))
-            print(data[index]['question'])
-            print(data[index]['options'])
-            print('Correct answer : {}'.format(data[index]['answer'].upper()))
-            print('Your answer    : {}'.format(answers[i][0].upper()))
+            print(question)
+            print(options)
+            correct = data[index]['answer'].upper()
+            my_ans = answers[i][0].upper()
+            if correct == my_ans:
+                print colored('Correct answer : {}'.format(correct), 'green')
+                print colored('Your answer    : {}'.format(my_ans), 'green')
+            else:
+                print colored('Correct answer : {}'.format(correct), 'red')
+                print colored('Your answer    : {}'.format(my_ans), 'red')
             print('--------------------------------------------------------')
 
 
