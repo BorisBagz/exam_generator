@@ -9,7 +9,7 @@ by: boris a.
 """
 
 # GLOBAL VARIABLES
-number_questions = 5        #number of questions we want to ask
+number_questions = 50        #number of questions we want to ask
 questions_made = []         #array with the index of the questions already answered
 answers = []                #array with the good and given answers
 json_questions = 'questions-ccsa.json'     #json file containing the questions
