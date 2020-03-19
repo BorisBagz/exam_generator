@@ -1296,7 +1296,7 @@
   },
  {
     "question": "Ken wants to obtain a configuration lock from other administrator on R80 Security Management Server. He can do this via WebUl or a via CLI. Which command should be use in CLI? Choose the correct-answer.",
-    "options": " A. Central\n B. Corporate\n C. Formal\n D. Local",
+    "options": " A. remove database lock\n B. The database feature has one command lock database override.\n C. override database lock\n D. The database feature has two commands: lock database override and unlock database. Both will work.",
     "answer": "b"
   },
  {
