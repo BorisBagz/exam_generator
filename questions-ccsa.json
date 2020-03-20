@@ -100,7 +100,7 @@
     "answer": "c"
   },
   {
-    "question": "What is the most complete definition of the difference between the Install Policy button on the SmartConsole’s tab, and the Install Policy within a specific policy?",
+    "question": "What is the most complete definition of the difference between the Install Policy button on the SmartConsole's tab, and the Install Policy within a specific policy?",
     "options": " A. The Global one also saves and published the session before installation.\n B. The Global one can install multiple selected policies at the same time.\n C. The local one does not install the Anti-Malware policy along with the Network policy.\n D. The second one pre-select the installation for only the current policy and for the applicable gateways.",
     "answer": "d"
   },
@@ -115,7 +115,7 @@
     "answer": "c"
   },
   {
-    "question": "John is the administrator of a R80 Security Management server managing r R77.30 Check Point Security Gateway. John is currently updating the network objects and amending the rules using SmartConsole. To make John’s changes available to other administrators, and to save the database before installing a policy, what must John do?",
+    "question": "John is the administrator of a R80 Security Management server managing r R77.30 Check Point Security Gateway. John is currently updating the network objects and amending the rules using SmartConsole. To make John's changes available to other administrators, and to save the database before installing a policy, what must John do?",
     "options": " A. Logout of the session\n B. File > Save\n C. Install database\n D. Publish the session",
     "answer": "d"
   },
@@ -141,7 +141,7 @@
   },
   {
     "question": "You are the Check Point administrator for Alpha Corp with an R80 Check Point estate. You have received a call by one of the management users stating that they are unable to browse the Internet with their new tablet connected to the company Wireless. The Wireless system goes through the Check Point Gateway. How do you review the logs to see what the problem may be?",
-    "options": " A. Open SmartLog and connect remotely to the IP of the wireless controller\n B. Open SmartView Tracker and filter the logs for the IP address of the tablet\n C. Open SmartView Tracker and check all the IP logs for the tablet\n D. Open SmartLog and query for the IP address of the Manager’s tablet",
+    "options": " A. Open SmartLog and connect remotely to the IP of the wireless controller\n B. Open SmartView Tracker and filter the logs for the IP address of the tablet\n C. Open SmartView Tracker and check all the IP logs for the tablet\n D. Open SmartLog and query for the IP address of the Manager's tablet",
     "answer": "d"
   },
   {
@@ -166,7 +166,7 @@
   },
  {
     "question": "How can the changes made by an administrator before publishing the session be seen by a superuser administrator?",
-    "options": " A. By impersonating the administrator with the ‘Login as…’ option\n B. They cannot be seen\n C. From the SmartView Tracker audit log\n D. From Manage and Settings > Sessions, right click on the session and click ‘View Changes…’",
+    "options": " A. By impersonating the administrator with the 'Login as…' option\n B. They cannot be seen\n C. From the SmartView Tracker audit log\n D. From Manage and Settings > Sessions, right click on the session and click 'View Changes…'",
     "answer": "c"
   },
  {
@@ -281,7 +281,7 @@
   },
  {
     "question": "You want to establish a VPN, using certificates. Your VPN will exchange certificates with an external partner. Which of the following activities you do first?",
-    "options": " A. Create a new logical-server object to represent your partner’s CA\n B. Exchange exported CA keys and use them to create a new server object to represent your partner’s Certificate Authority (CA)\n C. Manually import your partner’s Certificate Revocation List.\n D. Manually import your partner’s Access Control List.",
+    "options": " A. Create a new logical-server object to represent your partner's CA\n B. Exchange exported CA keys and use them to create a new server object to represent your partner's Certificate Authority (CA)\n C. Manually import your partner's Certificate Revocation List.\n D. Manually import your partner's Access Control List.",
     "answer": "b"
   },
  {
@@ -351,7 +351,7 @@
   },
  {
     "question": "The CDT utility supports which of the following?",
-    "options": " A. Major version upgrades to R77.30\n B. Only Jumbo HFA’s and hotfixes\n C. Only major version upgrades to R80.10\n D. All upgrades",
+    "options": " A. Major version upgrades to R77.30\n B. Only Jumbo HFA's and hotfixes\n C. Only major version upgrades to R80.10\n D. All upgrades",
     "answer": "d"
   },
  {
@@ -380,7 +380,7 @@
     "answer": "b"
   },
  {
-    "question": "The organization’s security manager wishes to back up just the Gaia operating system parameters. Which command can be used to back up only Gaia operating system parameters like interface details, Static routes and Proxy ARP entries?",
+    "question": "The organization's security manager wishes to back up just the Gaia operating system parameters. Which command can be used to back up only Gaia operating system parameters like interface details, Static routes and Proxy ARP entries?",
     "options": " A. show configuration\n B. backup\n C. migrate export\n D. upgrade export",
     "answer": "a"
   },
@@ -445,7 +445,7 @@
     "answer": "d"
   },
  {
-    "question": "Your company enforces a strict change control policy. Which of the following would be MOST effective for quickly dropping an attacker’s specific active connection?",
+    "question": "Your company enforces a strict change control policy. Which of the following would be MOST effective for quickly dropping an attacker's specific active connection?",
     "options": " A. Change the Rule Base and install the Policy to all Security Gateways\n B. Block Intruder feature of SmartView Tracker\n C. Intrusion Detection System (IDS) Policy install\n D. SAM – Suspicious Activity Rules feature of SmartView Monitor",
     "answer": "b"
   },
@@ -645,13 +645,13 @@
     "answer": "a"
   },
  {
-    "question": "MegaCorp’s security infrastructure separates Security Gateways geographically. You must request a central license for one remote Security Gateway. How do you apply the license?",
-    "options": " A. Using the remote Gateway’s IP address, and attaching the license to the remote Gateway via SmartUpdate.\n B. Using your Security Management Server’s IP address, and attaching the license to the remote Gateway via SmartUpdate.\n C. Using the remote Gateway’s IP address, and applying the license locally with command cplic put.\n D. Using each of the Gateway’s IP addresses, and applying the licenses on the Security Management Server with the command cprlic put.",
+    "question": "MegaCorp's security infrastructure separates Security Gateways geographically. You must request a central license for one remote Security Gateway. How do you apply the license?",
+    "options": " A. Using the remote Gateway's IP address, and attaching the license to the remote Gateway via SmartUpdate.\n B. Using your Security Management Server's IP address, and attaching the license to the remote Gateway via SmartUpdate.\n C. Using the remote Gateway's IP address, and applying the license locally with command cplic put.\n D. Using each of the Gateway's IP addresses, and applying the licenses on the Security Management Server with the command cprlic put.",
     "answer": "b"
   },
  {
     "question": "Bob and Joe both have Administrator Roles on their Gaia Platform. Bob logs in on the WebUI and then Joe logs in through CLI. Choose what BEST describes the following scenario, where Bob and Joe are both logged in:",
-    "options": " A. When Joe logs in, Bob will be log out automatically.\n B. Since they both are log in on different interfaces, they both will be able to make changes.\n C. If Joe tries to make changes, he won’t, database will be locked.\n D. Bob will be prompt that Joe logged in.",
+    "options": " A. When Joe logs in, Bob will be log out automatically.\n B. Since they both are log in on different interfaces, they both will be able to make changes.\n C. If Joe tries to make changes, he won't, database will be locked.\n D. Bob will be prompt that Joe logged in.",
     "answer": "c"
   },
  {
@@ -700,8 +700,8 @@
     "answer": "c"
   },
  {
-    "question": "Which method below is NOT one of the ways to communicate using the Management API’s?",
-    "options": " A. Typing API commands using the 'mgmt_cli' command\n B. Typing API commands from a dialog box inside the SmartConsole GUI application\n C. Typing API commands using Gaia’s secure shell (clash)19+\n D. Sending API commands over an http connection using web-services",
+    "question": "Which method below is NOT one of the ways to communicate using the Management API's?",
+    "options": " A. Typing API commands using the 'mgmt_cli' command\n B. Typing API commands from a dialog box inside the SmartConsole GUI application\n C. Typing API commands using Gaia's secure shell (clash)19+\n D. Sending API commands over an http connection using web-services",
     "answer": "d"
   },
  {
@@ -766,7 +766,7 @@
   },
  {
     "question": "Which of the following actions do NOT take place in IKE Phase 1 ?",
-    "options": " A. Peers agree on encryption method.\n B. Diffie-Hellman key is combined with the key material to produce the symmetrical IPsec key.\n C. Peers agree on integrity method.\n D. Each side generates a session key from its private key and peer’s public key.",
+    "options": " A. Peers agree on encryption method.\n B. Diffie-Hellman key is combined with the key material to produce the symmetrical IPsec key.\n C. Peers agree on integrity method.\n D. Each side generates a session key from its private key and peer's public key.",
     "answer": "b"
   },
  {
@@ -811,11 +811,11 @@
   },
  {
     "question": "When logging in for the first time to a Security management Server through SmartConsole, a fingerprint is saved to the:",
-    "options": " A. Security Management Server’s /home/.fgpt file and is available for future SmartConsole authentications.\n B. Windows registry is available for future Security Management Server authentications.\n C. there is no memory used for saving a fingerprint anyway.\n D. SmartConsole cache is available for future Security Management Server authentications.",
+    "options": " A. Security Management Server's /home/.fgpt file and is available for future SmartConsole authentications.\n B. Windows registry is available for future Security Management Server authentications.\n C. there is no memory used for saving a fingerprint anyway.\n D. SmartConsole cache is available for future Security Management Server authentications.",
     "answer": "b"
   },
  {
-    "question": "Vanessa is a Firewall administrator. She wants to test a backup of her company’s production Firewall cluster Dallas_GW. She has a lab environment that is identical to her production environment. She decided to restore production backup via SmartConsole in lab environment. Which details she need to fill in System Restore window before she can click OK button and test the backup?",
+    "question": "Vanessa is a Firewall administrator. She wants to test a backup of her company's production Firewall cluster Dallas_GW. She has a lab environment that is identical to her production environment. She decided to restore production backup via SmartConsole in lab environment. Which details she need to fill in System Restore window before she can click OK button and test the backup?",
     "options": " A. Server, SCP, Username, Password, Path, Comment, Member\n B. Server, TFTP, Username, Password, Path, Comment, All Members\n C. Server, Protocol, Username, Password, Path, Comment, All Members\n D. Server, Protocol, Username. Password, Path, Comment, member",
     "answer": "d"
   },
@@ -851,7 +851,7 @@
   },
  {
     "question": "Your manager requires you to setup a VPN to a new business partner site. The administrator from the partner site gives you his VPN settings and you notice that he setup AES 128 for IKE phase 1 and AES 256 for IKE phase 2. Why is this a problematic setup?",
-    "options": " A. The two algorithms do not have the same key length and so don’t work together. You will get the error …No proposal chosen…\n B. All is fine as the longest key length has been chosen for encrypting the data and a shorter key length for higher performance for setting up the tunnel.\n C. Only 128 bit keys are used for phase 1 keys which are protecting phase 2, so the longer key length in phase 2 only costs performance and does not add security due to a shorter key in phase 1.\n D. All is fine and can be used as is.",
+    "options": " A. The two algorithms do not have the same key length and so don't work together. You will get the error …No proposal chosen…\n B. All is fine as the longest key length has been chosen for encrypting the data and a shorter key length for higher performance for setting up the tunnel.\n C. Only 128 bit keys are used for phase 1 keys which are protecting phase 2, so the longer key length in phase 2 only costs performance and does not add security due to a shorter key in phase 1.\n D. All is fine and can be used as is.",
     "answer": "c"
   },
  {
@@ -896,7 +896,7 @@
   },
  {
     "question": "As a Security Administrator, you must refresh the Client Authentication authorized time-out every time a new user connection is authorized- How do you do this? Enable the Refreshable Timeout setting:",
-    "options": " A. in the user object’s Authentication screen.\n B. in the Gateway object’s Authentication screen\n C. in the Limit tab of the Client Authentication Action Properties screen.\n D. in the Global Properties Authentication screen.",
+    "options": " A. in the user object's Authentication screen.\n B. in the Gateway object's Authentication screen\n C. in the Limit tab of the Client Authentication Action Properties screen.\n D. in the Global Properties Authentication screen.",
     "answer": "c"
   },
  {
@@ -915,7 +915,7 @@
     "answer": "c"
   },
  {
-    "question": "When attempting to start a VPN tunnel, in the logs the error ‘no proposal chosen’ is seen numerous times. No other VPN-related log entries are present. Which phase of the VPN negotiations has failed?",
+    "question": "When attempting to start a VPN tunnel, in the logs the error ‘no proposal chosen' is seen numerous times. No other VPN-related log entries are present. Which phase of the VPN negotiations has failed?",
     "options": " A. IKE Phase 1\n B. IPSEC Phase 2\n C. IPSEC Phase 1\n D. IKE Phase 2",
     "answer": "a"
   },
@@ -1131,7 +1131,7 @@
   },
  {
     "question": "Using R80 Smart Console, what does a 'pencil icon' in a rule mean?",
-    "options": " A. I have changed this rule\n B. Someone else has changed this rule\n C. This rule is managed by check point’s SOC\n D. This rule can’t be changed as it’s an implied rule",
+    "options": " A. I have changed this rule\n B. Someone else has changed this rule\n C. This rule is managed by check point's SOC\n D. This rule can't be changed as it's an implied rule",
     "answer": "a"
   },
  {
@@ -1195,12 +1195,7 @@
     "answer": "d"
   },
  {
-    "question": "Customer’s R80 management server needs to be upgraded to R80.10. What is the best upgrade method when the management server is not connected to the Internet?",
-    "options": " A. Export R80 configuration, clean install R80.10 and import the configuration\n B. CPUSE online upgrade\n C. CPUSE offline upgrade\n D. SmartUpdate upgrade",
-    "answer": "c"
-  },
- {
-    "question": "Customer’s R80 management server needs to be upgraded to R80.10. What is the best upgrade method when the management server is not connected to the Internet?",
+    "question": "Customer's R80 management server needs to be upgraded to R80.10. What is the best upgrade method when the management server is not connected to the Internet?",
     "options": " A. Export R80 configuration, clean install R80.10 and import the configuration\n B. CPUSE online upgrade\n C. CPUSE offline upgrade\n D. SmartUpdate upgrade",
     "answer": "c"
   },
@@ -1211,7 +1206,7 @@
   },
  {
     "question": "Tom has connected to the R80 Management Server remotely using SmartConsole and is in the process of making some Rule Base changes, when he suddenly loses connectivity. Connectivity is restored shortly afterward. What will happen to the changes already made:",
-    "options": " A. Tom’s changes will have been stored on the Management when he reconnects and he will not lose any of this work.\n B. Tom will have to reboot his SmartConsole computer, and access the Management cache store on that computer, which is only accessible after a reboot.\n C. Tom’s changes will be lost since he lost connectivity and he will have to start again.\n D. Tom will have to reboot his SmartConsole computer, clear the cache and restore changes.",
+    "options": " A. Tom's changes will have been stored on the Management when he reconnects and he will not lose any of this work.\n B. Tom will have to reboot his SmartConsole computer, and access the Management cache store on that computer, which is only accessible after a reboot.\n C. Tom's changes will be lost since he lost connectivity and he will have to start again.\n D. Tom will have to reboot his SmartConsole computer, clear the cache and restore changes.",
     "answer": "a"
   },
  {
