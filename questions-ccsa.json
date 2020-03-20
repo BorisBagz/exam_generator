@@ -166,7 +166,7 @@
   },
  {
     "question": "How can the changes made by an administrator before publishing the session be seen by a superuser administrator?",
-    "options": " A. By impersonating the administrator with the 'Login as…' option\n B. They cannot be seen\n C. From the SmartView Tracker audit log\n D. From Manage and Settings > Sessions, right click on the session and click 'View Changes…'",
+    "options": " A. By impersonating the administrator with the 'Login as..' option\n B. They cannot be seen\n C. From the SmartView Tracker audit log\n D. From Manage and Settings > Sessions, right click on the session and click 'View Changes..'",
     "answer": "c"
   },
  {
@@ -851,7 +851,7 @@
   },
  {
     "question": "Your manager requires you to setup a VPN to a new business partner site. The administrator from the partner site gives you his VPN settings and you notice that he setup AES 128 for IKE phase 1 and AES 256 for IKE phase 2. Why is this a problematic setup?",
-    "options": " A. The two algorithms do not have the same key length and so don't work together. You will get the error …No proposal chosen…\n B. All is fine as the longest key length has been chosen for encrypting the data and a shorter key length for higher performance for setting up the tunnel.\n C. Only 128 bit keys are used for phase 1 keys which are protecting phase 2, so the longer key length in phase 2 only costs performance and does not add security due to a shorter key in phase 1.\n D. All is fine and can be used as is.",
+    "options": " A. The two algorithms do not have the same key length and so don't work together. You will get the error ..No proposal chosen..\n B. All is fine as the longest key length has been chosen for encrypting the data and a shorter key length for higher performance for setting up the tunnel.\n C. Only 128 bit keys are used for phase 1 keys which are protecting phase 2, so the longer key length in phase 2 only costs performance and does not add security due to a shorter key in phase 1.\n D. All is fine and can be used as is.",
     "answer": "c"
   },
  {
