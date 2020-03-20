@@ -446,7 +446,7 @@
   },
  {
     "question": "Your company enforces a strict change control policy. Which of the following would be MOST effective for quickly dropping an attacker's specific active connection?",
-    "options": " A. Change the Rule Base and install the Policy to all Security Gateways\n B. Block Intruder feature of SmartView Tracker\n C. Intrusion Detection System (IDS) Policy install\n D. SAM – Suspicious Activity Rules feature of SmartView Monitor",
+    "options": " A. Change the Rule Base and install the Policy to all Security Gateways\n B. Block Intruder feature of SmartView Tracker\n C. Intrusion Detection System (IDS) Policy install\n D. SAM - Suspicious Activity Rules feature of SmartView Monitor",
     "answer": "b"
   },
  {
@@ -871,7 +871,7 @@
   },
  {
     "question": "You are the Security Administrator for MegaCorp. In order to see how efficient your firewall Rule Base is, you would like to see how many often the particular rules match. Where can you see it? Give the BEST answer.",
-    "options": " A. In the SmartView Tracker, if you activate the column Matching Rate\n B. In SmartReporter, in the section Firewall Blade – Activity > Network Activity with information concerning Top Matched Logged Rules\n C. SmartReporter provides this information in the section Firewall Blade – Security > Rule Base Analysis with information concerning Top Matched Logged Rules.\n D. It is not possible to see it directly. You can open SmartDashboard and select UserDefined in the Track column. Afterwards, you need to create your own program with an external counter.",
+    "options": " A. In the SmartView Tracker, if you activate the column Matching Rate\n B. In SmartReporter, in the section Firewall Blade - Activity > Network Activity with information concerning Top Matched Logged Rules\n C. SmartReporter provides this information in the section Firewall Blade  Security > Rule Base Analysis with information concerning Top Matched Logged Rules.\n D. It is not possible to see it directly. You can open SmartDashboard and select UserDefined in the Track column. Afterwards, you need to create your own program with an external counter.",
     "answer": "c"
   },
  {
@@ -1011,7 +1011,7 @@
   },
  {
     "question": "Using mgmt_cli, what is the correct syntax to import a host object called Server_1 from the CLI?",
-    "options": " A. mgmt_cli add-host 'Server_1' ip.address '10.15.123.10' –format txt\n B. mgmt_cli add host name 'Server_1' ip_address '10.15.123.10' –format json\n C. mgmt_cli add object-host 'Server_1' ip_address '10.15.123.10' –format json\n D. mgmt_cIi add object 'Server_1' ip_address '10.15.123.10' –format json",
+    "options": " A. mgmt_cli add-host 'Server_1' ip.address '10.15.123.10' -format txt\n B. mgmt_cli add host name 'Server_1' ip_address '10.15.123.10' -format json\n C. mgmt_cli add object-host 'Server_1' ip_address '10.15.123.10' -format json\n D. mgmt_cIi add object 'Server_1' ip_address '10.15.123.10' -format json",
     "answer": "b"
   },
  {
@@ -1106,7 +1106,7 @@
   },
  {
     "question": "Which of the following is NOT an option for internal network definition of Anti-spoofing?",
-    "options": " A. Specific – derived from a selected object\n B. Route-based – derived from gateway routing table\n C. Network defined by the interface IP and Net Mask\n D. Not-defmed",
+    "options": " A. Specific - derived from a selected object\n B. Route-based - derived from gateway routing table\n C. Network defined by the interface IP and Net Mask\n D. Not-defmed",
     "answer": "b"
   },
  {
