@@ -307,7 +307,7 @@
  {
     "question": "Where does the security administrator activate Identity Awareness within SmartDashboard?",
     "options": " A. Gateway Object > General Properties\n B. Security Management Server > Identity Awareness\n C. Policy > Global Properties > Identity Awareness\n D. LDAP Server Object > General Properties",
-    "answer": "d"
+    "answer": "a"
   },
  {
     "question": "Which of the below is the MOST correct process to reset SIC from SmartDashboard?",
